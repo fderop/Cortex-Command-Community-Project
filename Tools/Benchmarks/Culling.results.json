@@ -1,0 +1,1090 @@
+{
+  "baseline_ref": "41e6b7010817936e09d2929330b7519852a1fcca",
+  "runs": 3,
+  "repeats": 64,
+  "correctness": [
+    {
+      "mode": "correctness",
+      "case": "stationary0",
+      "different_pixels": "0",
+      "reference_pixels": "77",
+      "expected_equal": "1",
+      "reference_hash": "10100430155857601001",
+      "candidate_hash": "10100430155857601001"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary1",
+      "different_pixels": "0",
+      "reference_pixels": "78",
+      "expected_equal": "1",
+      "reference_hash": "12092104465440153413",
+      "candidate_hash": "12092104465440153413"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary2",
+      "different_pixels": "0",
+      "reference_pixels": "15",
+      "expected_equal": "1",
+      "reference_hash": "2464075838932639079",
+      "candidate_hash": "2464075838932639079"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary3",
+      "different_pixels": "0",
+      "reference_pixels": "275",
+      "expected_equal": "1",
+      "reference_hash": "15880352566448536722",
+      "candidate_hash": "15880352566448536722"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary4",
+      "different_pixels": "0",
+      "reference_pixels": "274",
+      "expected_equal": "1",
+      "reference_hash": "5644895199465621499",
+      "candidate_hash": "5644895199465621499"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary5",
+      "different_pixels": "0",
+      "reference_pixels": "138",
+      "expected_equal": "1",
+      "reference_hash": "6722156789147946629",
+      "candidate_hash": "6722156789147946629"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary6",
+      "different_pixels": "0",
+      "reference_pixels": "700",
+      "expected_equal": "1",
+      "reference_hash": "5450571781996420597",
+      "candidate_hash": "5450571781996420597"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary7",
+      "different_pixels": "0",
+      "reference_pixels": "700",
+      "expected_equal": "1",
+      "reference_hash": "11326176906037880569",
+      "candidate_hash": "11326176906037880569"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary8",
+      "different_pixels": "0",
+      "reference_pixels": "464",
+      "expected_equal": "1",
+      "reference_hash": "5481045936081687236",
+      "candidate_hash": "5481045936081687236"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary9",
+      "different_pixels": "0",
+      "reference_pixels": "86",
+      "expected_equal": "1",
+      "reference_hash": "9592484789330751872",
+      "candidate_hash": "9592484789330751872"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary10",
+      "different_pixels": "0",
+      "reference_pixels": "87",
+      "expected_equal": "1",
+      "reference_hash": "10787555636554257802",
+      "candidate_hash": "10787555636554257802"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary11",
+      "different_pixels": "0",
+      "reference_pixels": "15",
+      "expected_equal": "1",
+      "reference_hash": "13901520691880828283",
+      "candidate_hash": "13901520691880828283"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary12",
+      "different_pixels": "0",
+      "reference_pixels": "276",
+      "expected_equal": "1",
+      "reference_hash": "2145024035057449723",
+      "candidate_hash": "2145024035057449723"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary13",
+      "different_pixels": "0",
+      "reference_pixels": "292",
+      "expected_equal": "1",
+      "reference_hash": "8618091437651390631",
+      "candidate_hash": "8618091437651390631"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary14",
+      "different_pixels": "0",
+      "reference_pixels": "125",
+      "expected_equal": "1",
+      "reference_hash": "2474911692799671241",
+      "candidate_hash": "2474911692799671241"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary15",
+      "different_pixels": "0",
+      "reference_pixels": "707",
+      "expected_equal": "1",
+      "reference_hash": "1791651576340639091",
+      "candidate_hash": "1791651576340639091"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary16",
+      "different_pixels": "0",
+      "reference_pixels": "741",
+      "expected_equal": "1",
+      "reference_hash": "10278324586916331805",
+      "candidate_hash": "10278324586916331805"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary17",
+      "different_pixels": "0",
+      "reference_pixels": "453",
+      "expected_equal": "1",
+      "reference_hash": "12276305259651017235",
+      "candidate_hash": "12276305259651017235"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary18",
+      "different_pixels": "0",
+      "reference_pixels": "99",
+      "expected_equal": "1",
+      "reference_hash": "16068006815491080288",
+      "candidate_hash": "16068006815491080288"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary19",
+      "different_pixels": "0",
+      "reference_pixels": "91",
+      "expected_equal": "1",
+      "reference_hash": "4213423599307445333",
+      "candidate_hash": "4213423599307445333"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary20",
+      "different_pixels": "0",
+      "reference_pixels": "15",
+      "expected_equal": "1",
+      "reference_hash": "8098719993730899500",
+      "candidate_hash": "8098719993730899500"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary21",
+      "different_pixels": "0",
+      "reference_pixels": "316",
+      "expected_equal": "1",
+      "reference_hash": "9510281237518208197",
+      "candidate_hash": "9510281237518208197"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary22",
+      "different_pixels": "0",
+      "reference_pixels": "275",
+      "expected_equal": "1",
+      "reference_hash": "13686622295447187483",
+      "candidate_hash": "13686622295447187483"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary23",
+      "different_pixels": "0",
+      "reference_pixels": "141",
+      "expected_equal": "1",
+      "reference_hash": "13669162592144336667",
+      "candidate_hash": "13669162592144336667"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary24",
+      "different_pixels": "0",
+      "reference_pixels": "807",
+      "expected_equal": "1",
+      "reference_hash": "3736149547043340752",
+      "candidate_hash": "3736149547043340752"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary25",
+      "different_pixels": "0",
+      "reference_pixels": "682",
+      "expected_equal": "1",
+      "reference_hash": "8956461755379840990",
+      "candidate_hash": "8956461755379840990"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary26",
+      "different_pixels": "0",
+      "reference_pixels": "510",
+      "expected_equal": "1",
+      "reference_hash": "4053504930349967331",
+      "candidate_hash": "4053504930349967331"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary27",
+      "different_pixels": "0",
+      "reference_pixels": "77",
+      "expected_equal": "1",
+      "reference_hash": "7975351443591255546",
+      "candidate_hash": "7975351443591255546"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary28",
+      "different_pixels": "0",
+      "reference_pixels": "78",
+      "expected_equal": "1",
+      "reference_hash": "12464418544091971797",
+      "candidate_hash": "12464418544091971797"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary29",
+      "different_pixels": "0",
+      "reference_pixels": "15",
+      "expected_equal": "1",
+      "reference_hash": "382076849447282560",
+      "candidate_hash": "382076849447282560"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary30",
+      "different_pixels": "0",
+      "reference_pixels": "274",
+      "expected_equal": "1",
+      "reference_hash": "13727022753081337979",
+      "candidate_hash": "13727022753081337979"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary31",
+      "different_pixels": "0",
+      "reference_pixels": "275",
+      "expected_equal": "1",
+      "reference_hash": "10759980198933060472",
+      "candidate_hash": "10759980198933060472"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary32",
+      "different_pixels": "0",
+      "reference_pixels": "137",
+      "expected_equal": "1",
+      "reference_hash": "1281750435603703114",
+      "candidate_hash": "1281750435603703114"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary33",
+      "different_pixels": "0",
+      "reference_pixels": "700",
+      "expected_equal": "1",
+      "reference_hash": "12233622688750376001",
+      "candidate_hash": "12233622688750376001"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary34",
+      "different_pixels": "0",
+      "reference_pixels": "700",
+      "expected_equal": "1",
+      "reference_hash": "6369083047068535806",
+      "candidate_hash": "6369083047068535806"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary35",
+      "different_pixels": "0",
+      "reference_pixels": "464",
+      "expected_equal": "1",
+      "reference_hash": "14656411953506702578",
+      "candidate_hash": "14656411953506702578"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary36",
+      "different_pixels": "0",
+      "reference_pixels": "84",
+      "expected_equal": "1",
+      "reference_hash": "9931050864548951279",
+      "candidate_hash": "9931050864548951279"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary37",
+      "different_pixels": "0",
+      "reference_pixels": "87",
+      "expected_equal": "1",
+      "reference_hash": "15851194773724685019",
+      "candidate_hash": "15851194773724685019"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary38",
+      "different_pixels": "0",
+      "reference_pixels": "15",
+      "expected_equal": "1",
+      "reference_hash": "14899927808786332034",
+      "candidate_hash": "14899927808786332034"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary39",
+      "different_pixels": "0",
+      "reference_pixels": "275",
+      "expected_equal": "1",
+      "reference_hash": "6048747775780937048",
+      "candidate_hash": "6048747775780937048"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary40",
+      "different_pixels": "0",
+      "reference_pixels": "286",
+      "expected_equal": "1",
+      "reference_hash": "16484507407225972046",
+      "candidate_hash": "16484507407225972046"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary41",
+      "different_pixels": "0",
+      "reference_pixels": "130",
+      "expected_equal": "1",
+      "reference_hash": "11373209858044092866",
+      "candidate_hash": "11373209858044092866"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary42",
+      "different_pixels": "0",
+      "reference_pixels": "701",
+      "expected_equal": "1",
+      "reference_hash": "14313062461698921898",
+      "candidate_hash": "14313062461698921898"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary43",
+      "different_pixels": "0",
+      "reference_pixels": "739",
+      "expected_equal": "1",
+      "reference_hash": "4015152095840269865",
+      "candidate_hash": "4015152095840269865"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary44",
+      "different_pixels": "0",
+      "reference_pixels": "450",
+      "expected_equal": "1",
+      "reference_hash": "7941689941404605629",
+      "candidate_hash": "7941689941404605629"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary45",
+      "different_pixels": "0",
+      "reference_pixels": "99",
+      "expected_equal": "1",
+      "reference_hash": "4979074009953922254",
+      "candidate_hash": "4979074009953922254"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary46",
+      "different_pixels": "0",
+      "reference_pixels": "95",
+      "expected_equal": "1",
+      "reference_hash": "1357080971846414715",
+      "candidate_hash": "1357080971846414715"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary47",
+      "different_pixels": "0",
+      "reference_pixels": "12",
+      "expected_equal": "1",
+      "reference_hash": "418079399960564828",
+      "candidate_hash": "418079399960564828"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary48",
+      "different_pixels": "0",
+      "reference_pixels": "313",
+      "expected_equal": "1",
+      "reference_hash": "8675972683508462217",
+      "candidate_hash": "8675972683508462217"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary49",
+      "different_pixels": "0",
+      "reference_pixels": "269",
+      "expected_equal": "1",
+      "reference_hash": "4750231010858044189",
+      "candidate_hash": "4750231010858044189"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary50",
+      "different_pixels": "0",
+      "reference_pixels": "144",
+      "expected_equal": "1",
+      "reference_hash": "16419347232461494320",
+      "candidate_hash": "16419347232461494320"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary51",
+      "different_pixels": "0",
+      "reference_pixels": "799",
+      "expected_equal": "1",
+      "reference_hash": "17234801499461176763",
+      "candidate_hash": "17234801499461176763"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary52",
+      "different_pixels": "0",
+      "reference_pixels": "685",
+      "expected_equal": "1",
+      "reference_hash": "4837464436609558249",
+      "candidate_hash": "4837464436609558249"
+    },
+    {
+      "mode": "correctness",
+      "case": "stationary53",
+      "different_pixels": "0",
+      "reference_pixels": "506",
+      "expected_equal": "1",
+      "reference_hash": "12369257115389240182",
+      "candidate_hash": "12369257115389240182"
+    },
+    {
+      "mode": "correctness",
+      "case": "scene_seam",
+      "different_pixels": "0",
+      "reference_pixels": "412",
+      "expected_equal": "1",
+      "reference_hash": "4363306813278468497",
+      "candidate_hash": "4363306813278468497"
+    },
+    {
+      "mode": "correctness",
+      "case": "scene_seam_without_wrap",
+      "different_pixels": "412",
+      "reference_pixels": "412",
+      "expected_equal": "0",
+      "reference_hash": "4363306813278468497",
+      "candidate_hash": "18334859166678057859"
+    },
+    {
+      "mode": "correctness",
+      "case": "camera_pan",
+      "different_pixels": "412",
+      "reference_pixels": "412",
+      "expected_equal": "0",
+      "reference_hash": "1404835515496465713",
+      "candidate_hash": "18334859166678057859"
+    },
+    {
+      "mode": "correctness",
+      "case": "camera_jump",
+      "different_pixels": "412",
+      "reference_pixels": "412",
+      "expected_equal": "0",
+      "reference_hash": "7271538549569282161",
+      "candidate_hash": "18334859166678057859"
+    },
+    {
+      "mode": "correctness",
+      "case": "split_screen",
+      "different_pixels": "0",
+      "reference_pixels": "412",
+      "expected_equal": "1",
+      "reference_hash": "7271538549569282161",
+      "candidate_hash": "7271538549569282161"
+    },
+    {
+      "mode": "correctness",
+      "case": "split_screen_first_only",
+      "different_pixels": "412",
+      "reference_pixels": "412",
+      "expected_equal": "0",
+      "reference_hash": "7271538549569282161",
+      "candidate_hash": "18334859166678057859"
+    },
+    {
+      "mode": "attachment",
+      "radius": "16.298006",
+      "child_x": "220.000000"
+    },
+    {
+      "mode": "correctness",
+      "case": "attachment_cached_radius_before",
+      "different_pixels": "412",
+      "reference_pixels": "412",
+      "expected_equal": "0",
+      "reference_hash": "441947451370462225",
+      "candidate_hash": "18334859166678057859"
+    },
+    {
+      "mode": "correctness",
+      "case": "body_bound_before",
+      "different_pixels": "412",
+      "reference_pixels": "412",
+      "expected_equal": "0",
+      "reference_hash": "441947451370462225",
+      "candidate_hash": "18334859166678057859"
+    },
+    {
+      "mode": "correctness",
+      "case": "attachment_cached_radius_after",
+      "different_pixels": "412",
+      "reference_pixels": "412",
+      "expected_equal": "0",
+      "reference_hash": "441947451370462225",
+      "candidate_hash": "18334859166678057859"
+    },
+    {
+      "mode": "correctness",
+      "case": "body_bound_after",
+      "different_pixels": "412",
+      "reference_pixels": "412",
+      "expected_equal": "0",
+      "reference_hash": "441947451370462225",
+      "candidate_hash": "18334859166678057859"
+    },
+    {
+      "mode": "result",
+      "failures": "0",
+      "image_directory": "Mods/CullingBenchmark-41465"
+    }
+  ],
+  "timings": {
+    "size12-onscreen": {
+      "baseline": [
+        {
+          "mode": "timing",
+          "size": "12",
+          "spread": "0",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "9.333000",
+          "viewport_hash": "11023603526996199469",
+          "scene_hash": "12399160452632124461"
+        },
+        {
+          "mode": "timing",
+          "size": "12",
+          "spread": "0",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "9.241000",
+          "viewport_hash": "11023603526996199469",
+          "scene_hash": "12399160452632124461"
+        },
+        {
+          "mode": "timing",
+          "size": "12",
+          "spread": "0",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "9.088000",
+          "viewport_hash": "11023603526996199469",
+          "scene_hash": "12399160452632124461"
+        }
+      ],
+      "culled": [
+        {
+          "mode": "timing",
+          "size": "12",
+          "spread": "0",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "9.395000",
+          "viewport_hash": "11023603526996199469",
+          "scene_hash": "12399160452632124461"
+        },
+        {
+          "mode": "timing",
+          "size": "12",
+          "spread": "0",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "9.867000",
+          "viewport_hash": "11023603526996199469",
+          "scene_hash": "12399160452632124461"
+        },
+        {
+          "mode": "timing",
+          "size": "12",
+          "spread": "0",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "9.892000",
+          "viewport_hash": "11023603526996199469",
+          "scene_hash": "12399160452632124461"
+        }
+      ],
+      "baseline_median_ms": 9.241,
+      "culled_median_ms": 9.867,
+      "time_reduction_percent": -6.774158640839745
+    },
+    "size12-spread": {
+      "baseline": [
+        {
+          "mode": "timing",
+          "size": "12",
+          "spread": "1",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "9.032000",
+          "viewport_hash": "14993773512282707156",
+          "scene_hash": "3816973556322215135"
+        },
+        {
+          "mode": "timing",
+          "size": "12",
+          "spread": "1",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "9.223000",
+          "viewport_hash": "14993773512282707156",
+          "scene_hash": "3816973556322215135"
+        },
+        {
+          "mode": "timing",
+          "size": "12",
+          "spread": "1",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "9.016000",
+          "viewport_hash": "14993773512282707156",
+          "scene_hash": "3816973556322215135"
+        }
+      ],
+      "culled": [
+        {
+          "mode": "timing",
+          "size": "12",
+          "spread": "1",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "1.183000",
+          "viewport_hash": "14993773512282707156",
+          "scene_hash": "16043110277202692308"
+        },
+        {
+          "mode": "timing",
+          "size": "12",
+          "spread": "1",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "1.208000",
+          "viewport_hash": "14993773512282707156",
+          "scene_hash": "16043110277202692308"
+        },
+        {
+          "mode": "timing",
+          "size": "12",
+          "spread": "1",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "1.185000",
+          "viewport_hash": "14993773512282707156",
+          "scene_hash": "16043110277202692308"
+        }
+      ],
+      "baseline_median_ms": 9.032,
+      "culled_median_ms": 1.185,
+      "time_reduction_percent": 86.87998228520814
+    },
+    "size64-onscreen": {
+      "baseline": [
+        {
+          "mode": "timing",
+          "size": "64",
+          "spread": "0",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "183.394000",
+          "viewport_hash": "8276124251516693914",
+          "scene_hash": "4630964837577148826"
+        },
+        {
+          "mode": "timing",
+          "size": "64",
+          "spread": "0",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "183.789000",
+          "viewport_hash": "8276124251516693914",
+          "scene_hash": "4630964837577148826"
+        },
+        {
+          "mode": "timing",
+          "size": "64",
+          "spread": "0",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "183.260000",
+          "viewport_hash": "8276124251516693914",
+          "scene_hash": "4630964837577148826"
+        }
+      ],
+      "culled": [
+        {
+          "mode": "timing",
+          "size": "64",
+          "spread": "0",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "183.647000",
+          "viewport_hash": "8276124251516693914",
+          "scene_hash": "4630964837577148826"
+        },
+        {
+          "mode": "timing",
+          "size": "64",
+          "spread": "0",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "183.600000",
+          "viewport_hash": "8276124251516693914",
+          "scene_hash": "4630964837577148826"
+        },
+        {
+          "mode": "timing",
+          "size": "64",
+          "spread": "0",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "187.933000",
+          "viewport_hash": "8276124251516693914",
+          "scene_hash": "4630964837577148826"
+        }
+      ],
+      "baseline_median_ms": 183.394,
+      "culled_median_ms": 183.647,
+      "time_reduction_percent": -0.13795434965155895
+    },
+    "size64-spread": {
+      "baseline": [
+        {
+          "mode": "timing",
+          "size": "64",
+          "spread": "1",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "182.930000",
+          "viewport_hash": "3536292350599754358",
+          "scene_hash": "6274940433746781333"
+        },
+        {
+          "mode": "timing",
+          "size": "64",
+          "spread": "1",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "182.872000",
+          "viewport_hash": "3536292350599754358",
+          "scene_hash": "6274940433746781333"
+        },
+        {
+          "mode": "timing",
+          "size": "64",
+          "spread": "1",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "182.025000",
+          "viewport_hash": "3536292350599754358",
+          "scene_hash": "6274940433746781333"
+        }
+      ],
+      "culled": [
+        {
+          "mode": "timing",
+          "size": "64",
+          "spread": "1",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "14.832000",
+          "viewport_hash": "3536292350599754358",
+          "scene_hash": "735353279803260534"
+        },
+        {
+          "mode": "timing",
+          "size": "64",
+          "spread": "1",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "15.137000",
+          "viewport_hash": "3536292350599754358",
+          "scene_hash": "735353279803260534"
+        },
+        {
+          "mode": "timing",
+          "size": "64",
+          "spread": "1",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "15.935000",
+          "viewport_hash": "3536292350599754358",
+          "scene_hash": "735353279803260534"
+        }
+      ],
+      "baseline_median_ms": 182.872,
+      "culled_median_ms": 15.137,
+      "time_reduction_percent": 91.72262566166499
+    },
+    "size128-onscreen": {
+      "baseline": [
+        {
+          "mode": "timing",
+          "size": "128",
+          "spread": "0",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "578.355000",
+          "viewport_hash": "5003681164770950761",
+          "scene_hash": "8356128476590806456"
+        },
+        {
+          "mode": "timing",
+          "size": "128",
+          "spread": "0",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "576.937000",
+          "viewport_hash": "5003681164770950761",
+          "scene_hash": "8356128476590806456"
+        },
+        {
+          "mode": "timing",
+          "size": "128",
+          "spread": "0",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "578.046000",
+          "viewport_hash": "5003681164770950761",
+          "scene_hash": "8356128476590806456"
+        }
+      ],
+      "culled": [
+        {
+          "mode": "timing",
+          "size": "128",
+          "spread": "0",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "576.160000",
+          "viewport_hash": "5003681164770950761",
+          "scene_hash": "8356128476590806456"
+        },
+        {
+          "mode": "timing",
+          "size": "128",
+          "spread": "0",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "578.342000",
+          "viewport_hash": "5003681164770950761",
+          "scene_hash": "8356128476590806456"
+        },
+        {
+          "mode": "timing",
+          "size": "128",
+          "spread": "0",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "512",
+          "repeats": "64",
+          "ms": "580.116000",
+          "viewport_hash": "5003681164770950761",
+          "scene_hash": "8356128476590806456"
+        }
+      ],
+      "baseline_median_ms": 578.046,
+      "culled_median_ms": 578.342,
+      "time_reduction_percent": -0.05120699736698153
+    },
+    "size128-spread": {
+      "baseline": [
+        {
+          "mode": "timing",
+          "size": "128",
+          "spread": "1",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "570.762000",
+          "viewport_hash": "1743637659735063271",
+          "scene_hash": "5189863943631272067"
+        },
+        {
+          "mode": "timing",
+          "size": "128",
+          "spread": "1",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "570.751000",
+          "viewport_hash": "1743637659735063271",
+          "scene_hash": "5189863943631272067"
+        },
+        {
+          "mode": "timing",
+          "size": "128",
+          "spread": "1",
+          "variant": "baseline",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "571.846000",
+          "viewport_hash": "1743637659735063271",
+          "scene_hash": "5189863943631272067"
+        }
+      ],
+      "culled": [
+        {
+          "mode": "timing",
+          "size": "128",
+          "spread": "1",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "52.073000",
+          "viewport_hash": "1743637659735063271",
+          "scene_hash": "4237100016272181876"
+        },
+        {
+          "mode": "timing",
+          "size": "128",
+          "spread": "1",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "52.217000",
+          "viewport_hash": "1743637659735063271",
+          "scene_hash": "4237100016272181876"
+        },
+        {
+          "mode": "timing",
+          "size": "128",
+          "spread": "1",
+          "variant": "culled",
+          "objects": "512",
+          "selected": "64",
+          "repeats": "64",
+          "ms": "52.180000",
+          "viewport_hash": "1743637659735063271",
+          "scene_hash": "4237100016272181876"
+        }
+      ],
+      "baseline_median_ms": 570.762,
+      "culled_median_ms": 52.18,
+      "time_reduction_percent": 90.85783566530358
+    }
+  },
+  "environment": {
+    "machine": "Apple M3 Pro",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "compiler": "g++-15 (Homebrew GCC 15.2.0_1) 15.2.0",
+    "optimization": "-O3 release",
+    "engine_baseline": "41e6b7010817936e09d2929330b7519852a1fcca",
+    "bitmap": "2048x512 8-bit wrapping scene, 256x256 viewport",
+    "capture": "paired Draw kernel wall time, 512 objects, 64 repeats, one warmup pass, alternating order"
+  }
+}
