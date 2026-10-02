@@ -9,6 +9,12 @@ The baseline and candidate use identical objects except for `AtomGroup.cpp`.
 Both variants use the original `Matrix.cpp` and `MOSprite.cpp` objects.
 The measurement used GCC 15.2, a release build, and an Apple M3 Pro.
 
+These CPU measurements and traces replace the invalid results from the original fixture.
+The original debris fixture added a field beyond the fixed allocation size inherited from `MOSRotating`.
+The corrected fixture stores reset positions outside the entity and requires equal fixture and base sizes at compilation.
+The other heap fixtures add no fields.
+The full-game capture uses actual engine entities and remains valid.
+
 The correctness comparison hashes collision order, impulses, contact radii, impulse factors, target impulses, and final movement state.
 Each mode uses 256 calls for this comparison.
 Seven of fifteen modes differ: dense-1, dense-8, dense-32, terrain, spin-dense, rebounds, and deceleration.
@@ -40,16 +46,16 @@ A negative reduction means that the candidate takes more time.
 
 | Mode | Baseline ms | Candidate ms | Time reduction | Behavior matches |
 | --- | ---: | ---: | ---: | --- |
-| dense-1 | 113.309 | 183.900 | -62.30% | No |
-| dense-8 | 143.231 | 229.147 | -59.98% | No |
-| dense-32 | 209.002 | 337.519 | -61.49% | No |
-| terrain | 33.517 | 28.203 | 15.85% | No |
-| spin-air | 50.359 | 47.531 | 5.62% | Yes |
-| spin-dense | 136.127 | 56.327 | 58.62% | No |
-| spin-terrain | 26.264 | 26.460 | -0.75% | Yes |
-| rebounds | 76.227 | 33.629 | 55.88% | No |
-| deceleration | 24.833 | 21.767 | 12.35% | No |
-| spin-zero-tail | 16.346 | 14.331 | 12.33% | Yes |
+| dense-1 | 111.216 | 180.803 | -62.57% | No |
+| dense-8 | 140.873 | 223.310 | -58.52% | No |
+| dense-32 | 206.325 | 327.585 | -58.77% | No |
+| terrain | 32.854 | 27.924 | 15.01% | No |
+| spin-air | 49.007 | 47.136 | 3.82% | Yes |
+| spin-dense | 134.837 | 55.985 | 58.48% | No |
+| spin-terrain | 25.786 | 26.249 | -1.80% | Yes |
+| rebounds | 74.559 | 33.239 | 55.42% | No |
+| deceleration | 24.292 | 21.652 | 10.87% | No |
+| spin-zero-tail | 15.828 | 14.284 | 9.75% | Yes |
 
 One full-game process pair used stock debris and actual frag grenade explosions.
 The activity creates 400 collidable gibs and a grenade explosion every 60 ticks.

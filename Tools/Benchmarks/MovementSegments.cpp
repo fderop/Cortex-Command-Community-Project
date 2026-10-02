@@ -98,8 +98,7 @@ void segmentFinish(int segment, int steps, bool hit, bool halted, float progress
 }
 
 struct DebrisFixture : MOSRotating {
-    Vector fixturePosition;
-    DebrisFixture(BITMAP* bitmap, Material* material, MOID id, Vector position, int atoms) : fixturePosition(position) {
+    DebrisFixture(BITMAP* bitmap, Material* material, MOID id, Vector position, int atoms) {
         m_aSprite = {bitmap};
         m_SpriteOffset = Vector(0, -bitmap->h / 2.0F);
         m_SpriteRadius = 40;
@@ -161,6 +160,7 @@ struct DebrisFixture : MOSRotating {
         }
     }
 };
+static_assert(sizeof(DebrisFixture) == sizeof(MOSRotating));
 
 int main(int argc, char** argv) {
     const int calls = argc > 1 ? std::stoi(argv[1]) : 4096;
@@ -196,6 +196,7 @@ int main(int argc, char** argv) {
         const bool push = mode.starts_with("push");
         const int targets = mode == "spin-dense" ? 32 : mode.starts_with("dense") ? std::stoi(mode.substr(6)) : 0;
         std::vector<std::unique_ptr<DebrisFixture>> debris;
+        std::vector<Vector> targetPositions;
         BITMAP* targetBitmap = create_bitmap_ex(8, 8, dense ? 64 / targets : 64);
         clear_to_color(targetBitmap, 21);
         for (int i = 0; i < targets; ++i) {
@@ -203,6 +204,7 @@ int main(int argc, char** argv) {
                 Vector(132, 96 + (i + 0.5F) * (64 / targets)), 8);
             index[i + 1] = object.get();
             grid.Add(IntRect(132, 96 + i * (64 / targets), 140, 96 + (i + 1) * (64 / targets) - 1), *object);
+            targetPositions.push_back(object->GetPos());
             debris.push_back(std::move(object));
         }
         clear_to_color(terrain->GetMaterialBitmap(), g_MaterialAir);
@@ -210,7 +212,7 @@ int main(int argc, char** argv) {
         if (mode == "rebounds") rectfill(terrain->GetMaterialBitmap(), 90, 64, 100, 192, 1);
         auto run = [&](int count) {
             for (int i = 0; i < count; ++i) {
-                for (auto& target : debris) target->SetPos(target->fixturePosition);
+                for (size_t target = 0; target < debris.size(); ++target) debris[target]->SetPos(targetPositions[target]);
                 traceDetails = recordBehavior && i == 0;
                 mover.reset(i, !push, mode);
                 mover.travel(push);

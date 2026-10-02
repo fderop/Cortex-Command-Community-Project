@@ -2,6 +2,7 @@
   "baseline_ref": "41e6b7010817936e09d2929330b7519852a1fcca",
   "calls_per_sample": 64,
   "runs": 1,
+  "trace": true,
   "modes": {
     "dense-1": {
       "baseline": {
@@ -844,5 +845,5 @@
       "response_count_matches": true
     }
   },
-  "trace": true
+  "fixture_storage": "Target reset positions use external storage; DebrisFixture size equals MOSRotating."
 }
