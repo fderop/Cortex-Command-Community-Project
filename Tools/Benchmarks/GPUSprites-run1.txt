@@ -1,0 +1,109 @@
+GLAD: ERROR 1280 in glGetIntegerv!
+renderer=Apple M3 Pro version=4.1 Metal - 90.5
+raster_subpixel_bits=4
+correctness case=flip0_a0.000000_s0.500000 cpu_gpu_diff=124 mask_diff=46 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=94 gpu_pixels=108 gpu_hash=8807522740659961483
+correctness case=flip0_a0.000000_s1.000000 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=421 gpu_pixels=421 gpu_hash=15510928172497184270
+correctness case=flip0_a0.000000_s1.700000 cpu_gpu_diff=41 mask_diff=14 float_oracle_gpu_diff=40 nonboundary_oracle_gpu_diff=0 cpu_pixels=1204 gpu_pixels=1202 gpu_hash=7180591777083566419
+correctness case=flip0_a0.130000_s0.500000 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=105 gpu_pixels=105 gpu_hash=10913101736720367404
+correctness case=flip0_a0.130000_s1.000000 cpu_gpu_diff=3 mask_diff=0 float_oracle_gpu_diff=2 nonboundary_oracle_gpu_diff=0 cpu_pixels=420 gpu_pixels=420 gpu_hash=17113808179134445991
+correctness case=flip0_a0.130000_s1.700000 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=1216 gpu_pixels=1216 gpu_hash=7858674613067236259
+correctness case=flip0_a-1.270000_s0.500000 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=107 gpu_pixels=107 gpu_hash=11912818620671711601
+correctness case=flip0_a-1.270000_s1.000000 cpu_gpu_diff=1 mask_diff=1 float_oracle_gpu_diff=1 nonboundary_oracle_gpu_diff=0 cpu_pixels=427 gpu_pixels=426 gpu_hash=17667575359039386403
+correctness case=flip0_a-1.270000_s1.700000 cpu_gpu_diff=1 mask_diff=0 float_oracle_gpu_diff=1 nonboundary_oracle_gpu_diff=0 cpu_pixels=1213 gpu_pixels=1213 gpu_hash=7274794351932805887
+correctness case=flip0_a3.141593_s0.500000 cpu_gpu_diff=86 mask_diff=29 float_oracle_gpu_diff=125 nonboundary_oracle_gpu_diff=0 cpu_pixels=99 gpu_pixels=102 gpu_hash=16564908816111960658
+correctness case=flip0_a3.141593_s1.000000 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=421 gpu_pixels=421 gpu_hash=12031467389395613064
+correctness case=flip0_a3.141593_s1.700000 cpu_gpu_diff=107 mask_diff=35 float_oracle_gpu_diff=41 nonboundary_oracle_gpu_diff=0 cpu_pixels=1205 gpu_pixels=1202 gpu_hash=13488123107417657211
+correctness case=flip1_a0.000000_s0.500000 cpu_gpu_diff=91 mask_diff=36 float_oracle_gpu_diff=36 nonboundary_oracle_gpu_diff=0 cpu_pixels=98 gpu_pixels=102 gpu_hash=10137104970403227599
+correctness case=flip1_a0.000000_s1.000000 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=421 gpu_pixels=421 gpu_hash=15528365964959556848
+correctness case=flip1_a0.000000_s1.700000 cpu_gpu_diff=40 mask_diff=12 float_oracle_gpu_diff=41 nonboundary_oracle_gpu_diff=0 cpu_pixels=1206 gpu_pixels=1202 gpu_hash=5845128475948288995
+correctness case=flip1_a0.130000_s0.500000 cpu_gpu_diff=1 mask_diff=0 float_oracle_gpu_diff=1 nonboundary_oracle_gpu_diff=0 cpu_pixels=105 gpu_pixels=105 gpu_hash=7934910221757423193
+correctness case=flip1_a0.130000_s1.000000 cpu_gpu_diff=3 mask_diff=1 float_oracle_gpu_diff=2 nonboundary_oracle_gpu_diff=0 cpu_pixels=421 gpu_pixels=422 gpu_hash=12635723717440733099
+correctness case=flip1_a0.130000_s1.700000 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=1221 gpu_pixels=1221 gpu_hash=7978829997352357436
+correctness case=flip1_a-1.270000_s0.500000 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=105 gpu_pixels=105 gpu_hash=12273595221112885973
+correctness case=flip1_a-1.270000_s1.000000 cpu_gpu_diff=1 mask_diff=1 float_oracle_gpu_diff=1 nonboundary_oracle_gpu_diff=0 cpu_pixels=421 gpu_pixels=420 gpu_hash=2072539886791662691
+correctness case=flip1_a-1.270000_s1.700000 cpu_gpu_diff=1 mask_diff=1 float_oracle_gpu_diff=1 nonboundary_oracle_gpu_diff=0 cpu_pixels=1215 gpu_pixels=1214 gpu_hash=14128894981522383548
+correctness case=flip1_a3.141593_s0.500000 cpu_gpu_diff=121 mask_diff=40 float_oracle_gpu_diff=82 nonboundary_oracle_gpu_diff=0 cpu_pixels=95 gpu_pixels=107 gpu_hash=9122100495872822890
+correctness case=flip1_a3.141593_s1.000000 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=421 gpu_pixels=421 gpu_hash=16306252161327822214
+correctness case=flip1_a3.141593_s1.700000 cpu_gpu_diff=108 mask_diff=37 float_oracle_gpu_diff=48 nonboundary_oracle_gpu_diff=0 cpu_pixels=1205 gpu_pixels=1202 gpu_hash=13592706224227102363
+correctness case=ordered_overlap cpu_gpu_diff=4 mask_diff=2 float_oracle_gpu_diff=4 nonboundary_oracle_gpu_diff=0 cpu_pixels=1235 gpu_pixels=1233 gpu_hash=9802389695199765631
+cold case=0 name=pattern width=12 height=12 unique=1 draws=512 cpu_ms=0.320000 gpu_upload_draw_finish_ms=0.785000
+steady case=0 sample=0 draws=512 cpu_ms=0.248250 gpu_draw_finish_ms=0.399000 cpu_upload_draw_finish_ms=0.595500
+steady case=0 sample=1 draws=512 cpu_ms=0.224625 gpu_draw_finish_ms=0.368625 cpu_upload_draw_finish_ms=0.574500
+steady case=0 sample=2 draws=512 cpu_ms=0.216125 gpu_draw_finish_ms=0.408500 cpu_upload_draw_finish_ms=0.578500
+steady case=0 sample=3 draws=512 cpu_ms=0.211875 gpu_draw_finish_ms=0.415625 cpu_upload_draw_finish_ms=0.533000
+steady case=0 sample=4 draws=512 cpu_ms=0.208125 gpu_draw_finish_ms=0.358125 cpu_upload_draw_finish_ms=0.519500
+steady case=0 sample=5 draws=512 cpu_ms=0.215250 gpu_draw_finish_ms=0.410625 cpu_upload_draw_finish_ms=0.572375
+steady case=0 sample=6 draws=512 cpu_ms=0.215000 gpu_draw_finish_ms=0.402500 cpu_upload_draw_finish_ms=0.502000
+correctness case=pattern_batch_0 cpu_gpu_diff=38 mask_diff=7 float_oracle_gpu_diff=37 nonboundary_oracle_gpu_diff=0 cpu_pixels=29599 gpu_pixels=29598 gpu_hash=6192048269212428938
+correctness case=cpu_upload_display_0 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=29599 gpu_pixels=29599 gpu_hash=13054838254204231363
+cold case=1 name=pattern width=24 height=24 unique=8 draws=512 cpu_ms=0.873000 gpu_upload_draw_finish_ms=1.376000
+steady case=1 sample=0 draws=512 cpu_ms=0.807125 gpu_draw_finish_ms=0.804625 cpu_upload_draw_finish_ms=1.145125
+steady case=1 sample=1 draws=512 cpu_ms=0.770000 gpu_draw_finish_ms=0.722250 cpu_upload_draw_finish_ms=1.146625
+steady case=1 sample=2 draws=512 cpu_ms=0.748625 gpu_draw_finish_ms=0.803375 cpu_upload_draw_finish_ms=1.119125
+steady case=1 sample=3 draws=512 cpu_ms=0.734375 gpu_draw_finish_ms=0.809000 cpu_upload_draw_finish_ms=1.126875
+steady case=1 sample=4 draws=512 cpu_ms=0.731625 gpu_draw_finish_ms=0.759875 cpu_upload_draw_finish_ms=1.066625
+steady case=1 sample=5 draws=512 cpu_ms=0.741375 gpu_draw_finish_ms=0.811625 cpu_upload_draw_finish_ms=1.095125
+steady case=1 sample=6 draws=512 cpu_ms=0.714875 gpu_draw_finish_ms=0.787500 cpu_upload_draw_finish_ms=1.038625
+correctness case=pattern_batch_1 cpu_gpu_diff=133 mask_diff=24 float_oracle_gpu_diff=134 nonboundary_oracle_gpu_diff=10 cpu_pixels=113992 gpu_pixels=113992 gpu_hash=7929835082548448925
+correctness case=cpu_upload_display_1 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=113992 gpu_pixels=113992 gpu_hash=3817814627649301467
+cold case=2 name=pattern width=64 height=64 unique=8 draws=512 cpu_ms=3.994000 gpu_upload_draw_finish_ms=1.367000
+steady case=2 sample=0 draws=512 cpu_ms=3.885625 gpu_draw_finish_ms=1.172625 cpu_upload_draw_finish_ms=4.590125
+steady case=2 sample=1 draws=512 cpu_ms=3.856125 gpu_draw_finish_ms=1.021500 cpu_upload_draw_finish_ms=4.561000
+steady case=2 sample=2 draws=512 cpu_ms=3.858875 gpu_draw_finish_ms=1.208125 cpu_upload_draw_finish_ms=4.547500
+steady case=2 sample=3 draws=512 cpu_ms=3.857500 gpu_draw_finish_ms=1.229375 cpu_upload_draw_finish_ms=4.562750
+steady case=2 sample=4 draws=512 cpu_ms=3.857750 gpu_draw_finish_ms=1.050875 cpu_upload_draw_finish_ms=4.546000
+steady case=2 sample=5 draws=512 cpu_ms=3.867750 gpu_draw_finish_ms=1.213250 cpu_upload_draw_finish_ms=4.546000
+steady case=2 sample=6 draws=512 cpu_ms=3.861500 gpu_draw_finish_ms=1.177000 cpu_upload_draw_finish_ms=4.563750
+correctness case=pattern_batch_2 cpu_gpu_diff=348 mask_diff=5 float_oracle_gpu_diff=259 nonboundary_oracle_gpu_diff=14 cpu_pixels=250077 gpu_pixels=250078 gpu_hash=13398463849336156377
+correctness case=cpu_upload_display_2 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=250077 gpu_pixels=250077 gpu_hash=6020766004482971240
+cold case=3 name=pattern width=128 height=128 unique=8 draws=512 cpu_ms=11.389000 gpu_upload_draw_finish_ms=1.952000
+steady case=3 sample=0 draws=512 cpu_ms=11.371000 gpu_draw_finish_ms=1.409375 cpu_upload_draw_finish_ms=12.083250
+steady case=3 sample=1 draws=512 cpu_ms=11.346500 gpu_draw_finish_ms=1.613875 cpu_upload_draw_finish_ms=12.057875
+steady case=3 sample=2 draws=512 cpu_ms=11.339250 gpu_draw_finish_ms=1.396750 cpu_upload_draw_finish_ms=12.036375
+steady case=3 sample=3 draws=512 cpu_ms=11.345125 gpu_draw_finish_ms=1.389500 cpu_upload_draw_finish_ms=12.041250
+steady case=3 sample=4 draws=512 cpu_ms=11.367125 gpu_draw_finish_ms=1.632875 cpu_upload_draw_finish_ms=12.085625
+steady case=3 sample=5 draws=512 cpu_ms=11.411500 gpu_draw_finish_ms=1.387750 cpu_upload_draw_finish_ms=12.085750
+steady case=3 sample=6 draws=512 cpu_ms=11.357750 gpu_draw_finish_ms=1.346000 cpu_upload_draw_finish_ms=12.060875
+correctness case=pattern_batch_3 cpu_gpu_diff=523 mask_diff=0 float_oracle_gpu_diff=241 nonboundary_oracle_gpu_diff=11 cpu_pixels=262141 gpu_pixels=262141 gpu_hash=11542670493704669376
+correctness case=cpu_upload_display_3 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=262141 gpu_pixels=262141 gpu_hash=10920910250317824940
+cold case=4 name=pattern width=24 height=24 unique=512 draws=512 cpu_ms=0.873000 gpu_upload_draw_finish_ms=4.194000
+steady case=4 sample=0 draws=512 cpu_ms=0.778625 gpu_draw_finish_ms=0.946250 cpu_upload_draw_finish_ms=1.133000
+steady case=4 sample=1 draws=512 cpu_ms=0.734250 gpu_draw_finish_ms=0.925375 cpu_upload_draw_finish_ms=1.096750
+steady case=4 sample=2 draws=512 cpu_ms=0.733125 gpu_draw_finish_ms=0.944125 cpu_upload_draw_finish_ms=1.120750
+steady case=4 sample=3 draws=512 cpu_ms=0.724125 gpu_draw_finish_ms=0.920750 cpu_upload_draw_finish_ms=1.063375
+steady case=4 sample=4 draws=512 cpu_ms=0.729625 gpu_draw_finish_ms=0.904625 cpu_upload_draw_finish_ms=1.065250
+steady case=4 sample=5 draws=512 cpu_ms=0.730875 gpu_draw_finish_ms=0.952375 cpu_upload_draw_finish_ms=1.101125
+steady case=4 sample=6 draws=512 cpu_ms=0.722375 gpu_draw_finish_ms=0.946875 cpu_upload_draw_finish_ms=1.050750
+correctness case=pattern_batch_4 cpu_gpu_diff=137 mask_diff=27 float_oracle_gpu_diff=138 nonboundary_oracle_gpu_diff=8 cpu_pixels=114003 gpu_pixels=114000 gpu_hash=15207259077144294207
+correctness case=cpu_upload_display_4 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=114003 gpu_pixels=114003 gpu_hash=7394153374005612381
+cold case=5 name=pattern width=64 height=64 unique=512 draws=512 cpu_ms=3.969000 gpu_upload_draw_finish_ms=5.106000
+steady case=5 sample=0 draws=512 cpu_ms=3.874500 gpu_draw_finish_ms=1.217625 cpu_upload_draw_finish_ms=4.525625
+steady case=5 sample=1 draws=512 cpu_ms=3.859000 gpu_draw_finish_ms=0.984250 cpu_upload_draw_finish_ms=4.620875
+steady case=5 sample=2 draws=512 cpu_ms=3.856625 gpu_draw_finish_ms=1.277250 cpu_upload_draw_finish_ms=4.546500
+steady case=5 sample=3 draws=512 cpu_ms=3.849000 gpu_draw_finish_ms=1.257250 cpu_upload_draw_finish_ms=4.541000
+steady case=5 sample=4 draws=512 cpu_ms=3.834125 gpu_draw_finish_ms=1.083750 cpu_upload_draw_finish_ms=4.526000
+steady case=5 sample=5 draws=512 cpu_ms=3.846000 gpu_draw_finish_ms=1.216500 cpu_upload_draw_finish_ms=4.483250
+steady case=5 sample=6 draws=512 cpu_ms=3.857250 gpu_draw_finish_ms=1.218000 cpu_upload_draw_finish_ms=4.515375
+correctness case=pattern_batch_5 cpu_gpu_diff=348 mask_diff=6 float_oracle_gpu_diff=266 nonboundary_oracle_gpu_diff=18 cpu_pixels=250106 gpu_pixels=250100 gpu_hash=2668720286309341271
+correctness case=cpu_upload_display_5 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=250106 gpu_pixels=250106 gpu_hash=14108298218676210226
+cold case=6 name=weapon_gib width=14 height=8 unique=1 draws=512 cpu_ms=0.263000 gpu_upload_draw_finish_ms=0.700000
+steady case=6 sample=0 draws=512 cpu_ms=0.191625 gpu_draw_finish_ms=0.410875 cpu_upload_draw_finish_ms=0.534375
+steady case=6 sample=1 draws=512 cpu_ms=0.168875 gpu_draw_finish_ms=0.362250 cpu_upload_draw_finish_ms=0.525875
+steady case=6 sample=2 draws=512 cpu_ms=0.168250 gpu_draw_finish_ms=0.366125 cpu_upload_draw_finish_ms=0.526250
+steady case=6 sample=3 draws=512 cpu_ms=0.164000 gpu_draw_finish_ms=0.369250 cpu_upload_draw_finish_ms=0.488500
+steady case=6 sample=4 draws=512 cpu_ms=0.164500 gpu_draw_finish_ms=0.326750 cpu_upload_draw_finish_ms=0.487500
+steady case=6 sample=5 draws=512 cpu_ms=0.173500 gpu_draw_finish_ms=0.314625 cpu_upload_draw_finish_ms=0.524250
+steady case=6 sample=6 draws=512 cpu_ms=0.166000 gpu_draw_finish_ms=0.323500 cpu_upload_draw_finish_ms=0.493250
+correctness case=weapon_gib_batch_6 cpu_gpu_diff=18 mask_diff=4 float_oracle_gpu_diff=20 nonboundary_oracle_gpu_diff=0 cpu_pixels=19495 gpu_pixels=19497 gpu_hash=11735648675782584932
+correctness case=cpu_upload_display_6 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=19495 gpu_pixels=19495 gpu_hash=9610946788993228263
+cold case=7 name=rocket_hull width=31 height=69 unique=1 draws=512 cpu_ms=2.612000 gpu_upload_draw_finish_ms=0.804000
+steady case=7 sample=0 draws=512 cpu_ms=2.415625 gpu_draw_finish_ms=0.485625 cpu_upload_draw_finish_ms=3.106250
+steady case=7 sample=1 draws=512 cpu_ms=2.373500 gpu_draw_finish_ms=0.440000 cpu_upload_draw_finish_ms=3.070625
+steady case=7 sample=2 draws=512 cpu_ms=2.372625 gpu_draw_finish_ms=0.743500 cpu_upload_draw_finish_ms=3.056375
+steady case=7 sample=3 draws=512 cpu_ms=2.380500 gpu_draw_finish_ms=0.755125 cpu_upload_draw_finish_ms=3.028500
+steady case=7 sample=4 draws=512 cpu_ms=2.372500 gpu_draw_finish_ms=0.477375 cpu_upload_draw_finish_ms=3.059375
+steady case=7 sample=5 draws=512 cpu_ms=2.379375 gpu_draw_finish_ms=0.732375 cpu_upload_draw_finish_ms=3.053375
+steady case=7 sample=6 draws=512 cpu_ms=2.376000 gpu_draw_finish_ms=0.604125 cpu_upload_draw_finish_ms=3.051625
+correctness case=rocket_hull_batch_7 cpu_gpu_diff=251 mask_diff=14 float_oracle_gpu_diff=200 nonboundary_oracle_gpu_diff=18 cpu_pixels=230301 gpu_pixels=230299 gpu_hash=18243195010592777404
+correctness case=cpu_upload_display_7 cpu_gpu_diff=0 mask_diff=0 float_oracle_gpu_diff=0 nonboundary_oracle_gpu_diff=0 cpu_pixels=230301 gpu_pixels=230301 gpu_hash=12463612028230117105
+final_gl_error=0
