@@ -1,0 +1,496 @@
+{
+  "correctness": [
+    {
+      "mode": "correctness",
+      "queries": "29491200",
+      "behavior_hash": "5636519390183985600",
+      "variant": "baseline",
+      "pair": 0
+    },
+    {
+      "mode": "batch-correctness",
+      "queries": "65536",
+      "hits": "51430",
+      "variant": "baseline",
+      "pair": 0
+    },
+    {
+      "mode": "correctness",
+      "queries": "29491200",
+      "behavior_hash": "5636519390183985600",
+      "variant": "cached",
+      "pair": 0
+    },
+    {
+      "mode": "batch-correctness",
+      "queries": "65536",
+      "hits": "51430",
+      "variant": "cached",
+      "pair": 0
+    },
+    {
+      "mode": "correctness",
+      "queries": "29491200",
+      "behavior_hash": "5636519390183985600",
+      "variant": "cached",
+      "pair": 1
+    },
+    {
+      "mode": "batch-correctness",
+      "queries": "65536",
+      "hits": "51430",
+      "variant": "cached",
+      "pair": 1
+    },
+    {
+      "mode": "correctness",
+      "queries": "29491200",
+      "behavior_hash": "5636519390183985600",
+      "variant": "baseline",
+      "pair": 1
+    },
+    {
+      "mode": "batch-correctness",
+      "queries": "65536",
+      "hits": "51430",
+      "variant": "baseline",
+      "pair": 1
+    },
+    {
+      "mode": "correctness",
+      "queries": "29491200",
+      "behavior_hash": "5636519390183985600",
+      "variant": "baseline",
+      "pair": 2
+    },
+    {
+      "mode": "batch-correctness",
+      "queries": "65536",
+      "hits": "51430",
+      "variant": "baseline",
+      "pair": 2
+    },
+    {
+      "mode": "correctness",
+      "queries": "29491200",
+      "behavior_hash": "5636519390183985600",
+      "variant": "cached",
+      "pair": 2
+    },
+    {
+      "mode": "batch-correctness",
+      "queries": "65536",
+      "hits": "51430",
+      "variant": "cached",
+      "pair": 2
+    }
+  ],
+  "timings": [
+    {
+      "variant": "baseline",
+      "mode": "adapter",
+      "language": "clang",
+      "samples": 21,
+      "mean_ms": 33.193619047619045,
+      "median_ms": 33.1,
+      "min_ms": 32.582,
+      "max_ms": 34.559
+    },
+    {
+      "variant": "baseline",
+      "mode": "adapter",
+      "language": "engine",
+      "samples": 21,
+      "mean_ms": 65.61033333333333,
+      "median_ms": 65.629,
+      "min_ms": 63.461,
+      "max_ms": 68.69
+    },
+    {
+      "variant": "baseline",
+      "mode": "adapter",
+      "language": "gcc",
+      "samples": 21,
+      "mean_ms": 33.18547619047619,
+      "median_ms": 33.016,
+      "min_ms": 32.611,
+      "max_ms": 34.355
+    },
+    {
+      "variant": "baseline",
+      "mode": "adapter",
+      "language": "rust",
+      "samples": 21,
+      "mean_ms": 34.67104761904762,
+      "median_ms": 34.544,
+      "min_ms": 33.847,
+      "max_ms": 36.043
+    },
+    {
+      "variant": "baseline",
+      "mode": "batch",
+      "language": "clang",
+      "samples": 21,
+      "mean_ms": 7.64352380952381,
+      "median_ms": 7.6,
+      "min_ms": 7.5,
+      "max_ms": 8.543
+    },
+    {
+      "variant": "baseline",
+      "mode": "batch",
+      "language": "gcc",
+      "samples": 21,
+      "mean_ms": 7.505857142857143,
+      "median_ms": 7.486,
+      "min_ms": 7.378,
+      "max_ms": 7.777
+    },
+    {
+      "variant": "baseline",
+      "mode": "batch",
+      "language": "rust",
+      "samples": 21,
+      "mean_ms": 7.212761904761905,
+      "median_ms": 7.224,
+      "min_ms": 6.963,
+      "max_ms": 7.476
+    },
+    {
+      "variant": "baseline",
+      "mode": "pack-batch",
+      "language": "clang",
+      "samples": 21,
+      "mean_ms": 21.947904761904763,
+      "median_ms": 21.94,
+      "min_ms": 21.584,
+      "max_ms": 22.622
+    },
+    {
+      "variant": "baseline",
+      "mode": "pack-batch",
+      "language": "gcc",
+      "samples": 21,
+      "mean_ms": 21.813285714285715,
+      "median_ms": 21.802,
+      "min_ms": 21.387,
+      "max_ms": 22.49
+    },
+    {
+      "variant": "baseline",
+      "mode": "pack-batch",
+      "language": "rust",
+      "samples": 21,
+      "mean_ms": 21.666809523809523,
+      "median_ms": 21.532,
+      "min_ms": 21.136,
+      "max_ms": 23.916
+    },
+    {
+      "variant": "baseline",
+      "mode": "scalar",
+      "language": "clang",
+      "samples": 21,
+      "mean_ms": 8.349571428571428,
+      "median_ms": 8.306,
+      "min_ms": 8.254,
+      "max_ms": 8.675
+    },
+    {
+      "variant": "baseline",
+      "mode": "scalar",
+      "language": "gcc",
+      "samples": 21,
+      "mean_ms": 8.461619047619047,
+      "median_ms": 8.426,
+      "min_ms": 8.357,
+      "max_ms": 8.71
+    },
+    {
+      "variant": "baseline",
+      "mode": "scalar",
+      "language": "rust",
+      "samples": 21,
+      "mean_ms": 8.173619047619047,
+      "median_ms": 8.138,
+      "min_ms": 8.035,
+      "max_ms": 8.65
+    },
+    {
+      "variant": "cached",
+      "mode": "adapter",
+      "language": "clang",
+      "samples": 21,
+      "mean_ms": 33.01895238095238,
+      "median_ms": 32.846,
+      "min_ms": 32.491,
+      "max_ms": 35.987
+    },
+    {
+      "variant": "cached",
+      "mode": "adapter",
+      "language": "engine",
+      "samples": 21,
+      "mean_ms": 39.83728571428571,
+      "median_ms": 39.951,
+      "min_ms": 38.581,
+      "max_ms": 41.007
+    },
+    {
+      "variant": "cached",
+      "mode": "adapter",
+      "language": "gcc",
+      "samples": 21,
+      "mean_ms": 34.077666666666666,
+      "median_ms": 33.009,
+      "min_ms": 32.337,
+      "max_ms": 54.976
+    },
+    {
+      "variant": "cached",
+      "mode": "adapter",
+      "language": "rust",
+      "samples": 21,
+      "mean_ms": 34.32185714285714,
+      "median_ms": 34.281,
+      "min_ms": 33.761,
+      "max_ms": 34.845
+    },
+    {
+      "variant": "cached",
+      "mode": "batch",
+      "language": "clang",
+      "samples": 21,
+      "mean_ms": 7.578619047619048,
+      "median_ms": 7.564,
+      "min_ms": 7.367,
+      "max_ms": 8.115
+    },
+    {
+      "variant": "cached",
+      "mode": "batch",
+      "language": "gcc",
+      "samples": 21,
+      "mean_ms": 7.4664761904761905,
+      "median_ms": 7.453,
+      "min_ms": 7.283,
+      "max_ms": 7.832
+    },
+    {
+      "variant": "cached",
+      "mode": "batch",
+      "language": "rust",
+      "samples": 21,
+      "mean_ms": 7.264952380952381,
+      "median_ms": 7.231,
+      "min_ms": 7.036,
+      "max_ms": 7.987
+    },
+    {
+      "variant": "cached",
+      "mode": "pack-batch",
+      "language": "clang",
+      "samples": 21,
+      "mean_ms": 21.927380952380954,
+      "median_ms": 21.867,
+      "min_ms": 21.36,
+      "max_ms": 24.317
+    },
+    {
+      "variant": "cached",
+      "mode": "pack-batch",
+      "language": "gcc",
+      "samples": 21,
+      "mean_ms": 22.22742857142857,
+      "median_ms": 21.769,
+      "min_ms": 21.087,
+      "max_ms": 31.773
+    },
+    {
+      "variant": "cached",
+      "mode": "pack-batch",
+      "language": "rust",
+      "samples": 21,
+      "mean_ms": 21.472714285714286,
+      "median_ms": 21.485,
+      "min_ms": 21.016,
+      "max_ms": 22.241
+    },
+    {
+      "variant": "cached",
+      "mode": "scalar",
+      "language": "clang",
+      "samples": 21,
+      "mean_ms": 8.76652380952381,
+      "median_ms": 8.18,
+      "min_ms": 8.05,
+      "max_ms": 17.425
+    },
+    {
+      "variant": "cached",
+      "mode": "scalar",
+      "language": "gcc",
+      "samples": 21,
+      "mean_ms": 8.333380952380953,
+      "median_ms": 8.295,
+      "min_ms": 8.169,
+      "max_ms": 9.123
+    },
+    {
+      "variant": "cached",
+      "mode": "scalar",
+      "language": "rust",
+      "samples": 21,
+      "mean_ms": 8.213476190476191,
+      "median_ms": 8.111,
+      "min_ms": 7.582,
+      "max_ms": 10.628
+    }
+  ],
+  "paired_changes": [
+    {
+      "variant": "baseline",
+      "mode": "adapter",
+      "control": "gcc",
+      "mean_rust_time_change_percent": 4.47794970029255,
+      "median_rust_time_change_percent": 4.459092671578113,
+      "min_percent": 3.264484241998966,
+      "max_percent": 6.423579459130968
+    },
+    {
+      "variant": "baseline",
+      "mode": "adapter",
+      "control": "clang",
+      "mean_rust_time_change_percent": 4.456459201360518,
+      "median_rust_time_change_percent": 4.520731163620129,
+      "min_percent": -0.44414377316311926,
+      "max_percent": 6.297470246994807
+    },
+    {
+      "variant": "baseline",
+      "mode": "scalar",
+      "control": "gcc",
+      "mean_rust_time_change_percent": -3.404081684921601,
+      "median_rust_time_change_percent": -3.5633685710892093,
+      "min_percent": -5.245863161600761,
+      "max_percent": -0.6888633754305484
+    },
+    {
+      "variant": "baseline",
+      "mode": "scalar",
+      "control": "clang",
+      "mean_rust_time_change_percent": -2.108934092942551,
+      "median_rust_time_change_percent": -2.144414829173724,
+      "min_percent": -3.1110575183889932,
+      "max_percent": -0.2881844380403509
+    },
+    {
+      "variant": "baseline",
+      "mode": "batch",
+      "control": "gcc",
+      "mean_rust_time_change_percent": -3.8932252391346687,
+      "median_rust_time_change_percent": -3.499866417312314,
+      "min_percent": -8.512279799408507,
+      "max_percent": -2.150826724022048
+    },
+    {
+      "variant": "baseline",
+      "mode": "batch",
+      "control": "clang",
+      "mean_rust_time_change_percent": -5.569269075954826,
+      "median_rust_time_change_percent": -4.853333333333332,
+      "min_percent": -16.715439541144782,
+      "max_percent": -3.3799068529607346
+    },
+    {
+      "variant": "baseline",
+      "mode": "pack-batch",
+      "control": "gcc",
+      "mean_rust_time_change_percent": -0.6671531807894086,
+      "median_rust_time_change_percent": -1.1010030324235975,
+      "min_percent": -2.3109817123100673,
+      "max_percent": 10.267877726036234
+    },
+    {
+      "variant": "baseline",
+      "mode": "pack-batch",
+      "control": "clang",
+      "mean_rust_time_change_percent": -1.2799369626301196,
+      "median_rust_time_change_percent": -1.724216784815913,
+      "min_percent": -2.5502456453774025,
+      "max_percent": 9.006381039197798
+    },
+    {
+      "variant": "cached",
+      "mode": "adapter",
+      "control": "gcc",
+      "mean_rust_time_change_percent": 1.9668419714709249,
+      "median_rust_time_change_percent": 4.127254478542541,
+      "min_percent": -38.58956635622817,
+      "max_percent": 5.6192068074760515
+    },
+    {
+      "variant": "cached",
+      "mode": "adapter",
+      "control": "clang",
+      "mean_rust_time_change_percent": 3.991280656160188,
+      "median_rust_time_change_percent": 4.2397214246441495,
+      "min_percent": -4.826742990524357,
+      "max_percent": 5.9542780093160275
+    },
+    {
+      "variant": "cached",
+      "mode": "scalar",
+      "control": "gcc",
+      "mean_rust_time_change_percent": -1.4095068838383824,
+      "median_rust_time_change_percent": -2.5351435780367693,
+      "min_percent": -7.18570204431388,
+      "max_percent": 28.761812454567483
+    },
+    {
+      "variant": "cached",
+      "mode": "scalar",
+      "control": "clang",
+      "mean_rust_time_change_percent": -4.291644509338112,
+      "median_rust_time_change_percent": -1.2016021361815787,
+      "min_percent": -39.007173601147784,
+      "max_percent": 0.06125949522175489
+    },
+    {
+      "variant": "cached",
+      "mode": "batch",
+      "control": "gcc",
+      "mean_rust_time_change_percent": -2.7086789826748414,
+      "median_rust_time_change_percent": -2.9317269076305164,
+      "min_percent": -4.394440767703511,
+      "max_percent": 1.979060265577126
+    },
+    {
+      "variant": "cached",
+      "mode": "batch",
+      "control": "clang",
+      "mean_rust_time_change_percent": -4.1469303840777645,
+      "median_rust_time_change_percent": -4.349550502379684,
+      "min_percent": -5.655425797139479,
+      "max_percent": -1.5773259396179906
+    },
+    {
+      "variant": "cached",
+      "mode": "pack-batch",
+      "control": "gcc",
+      "mean_rust_time_change_percent": -2.720556364852039,
+      "median_rust_time_change_percent": -1.0510232428928568,
+      "min_percent": -32.83920309696913,
+      "max_percent": 1.2709252145871819
+    },
+    {
+      "variant": "cached",
+      "mode": "pack-batch",
+      "control": "clang",
+      "mean_rust_time_change_percent": -2.0364415737068207,
+      "median_rust_time_change_percent": -1.7872572649961338,
+      "min_percent": -8.537237323683023,
+      "max_percent": -0.7914612636244489
+    }
+  ]
+}
