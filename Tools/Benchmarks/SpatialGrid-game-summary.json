@@ -1,0 +1,147 @@
+{
+  "warmup_ticks": 60,
+  "measured_ticks_per_process": 180,
+  "pairs_per_scenario": 3,
+  "wave_size": 2000,
+  "particle_sequences_match": true,
+  "scenarios": {
+    "collidable": {
+      "baseline": {
+        "mean_sim_us": 9259.157407407407,
+        "p95_sim_us": 57324,
+        "max_sim_us": 130287,
+        "mean_travel_us": 8365.309259259258,
+        "mean_movable_us": 8759.75925925926,
+        "mean_color_us": 158.36111111111111
+      },
+      "changed": {
+        "mean_sim_us": 9169.366666666667,
+        "p95_sim_us": 55749,
+        "max_sim_us": 129456,
+        "mean_travel_us": 8260.057407407407,
+        "mean_movable_us": 8652.616666666667,
+        "mean_color_us": 156.30555555555554
+      },
+      "runs": [
+        {
+          "variant": "baseline",
+          "run": 1,
+          "mean_sim_us": 9110.922222222222,
+          "p95_sim_us": 53293,
+          "max_sim_us": 129835,
+          "mean_travel_us": 8228.45
+        },
+        {
+          "variant": "baseline",
+          "run": 2,
+          "mean_sim_us": 9314.111111111111,
+          "p95_sim_us": 56131,
+          "max_sim_us": 129691,
+          "mean_travel_us": 8418.611111111111
+        },
+        {
+          "variant": "baseline",
+          "run": 3,
+          "mean_sim_us": 9352.43888888889,
+          "p95_sim_us": 57324,
+          "max_sim_us": 130287,
+          "mean_travel_us": 8448.866666666667
+        },
+        {
+          "variant": "changed",
+          "run": 1,
+          "mean_sim_us": 9128.466666666667,
+          "p95_sim_us": 53165,
+          "max_sim_us": 127349,
+          "mean_travel_us": 8210.583333333334
+        },
+        {
+          "variant": "changed",
+          "run": 2,
+          "mean_sim_us": 9106.877777777778,
+          "p95_sim_us": 54233,
+          "max_sim_us": 125746,
+          "mean_travel_us": 8201.961111111112
+        },
+        {
+          "variant": "changed",
+          "run": 3,
+          "mean_sim_us": 9272.755555555555,
+          "p95_sim_us": 55749,
+          "max_sim_us": 129456,
+          "mean_travel_us": 8367.627777777778
+        }
+      ],
+      "mean_sim_reduction_percent": 0.9697506672573297
+    },
+    "stock-default": {
+      "baseline": {
+        "mean_sim_us": 8660.514814814815,
+        "p95_sim_us": 10052,
+        "max_sim_us": 33465,
+        "mean_travel_us": 5976.8592592592595,
+        "mean_movable_us": 8138.766666666666,
+        "mean_color_us": 1276.7925925925927
+      },
+      "changed": {
+        "mean_sim_us": 8543.277777777777,
+        "p95_sim_us": 9943,
+        "max_sim_us": 34648,
+        "mean_travel_us": 5846.029629629629,
+        "mean_movable_us": 8008.32037037037,
+        "mean_color_us": 1280.4648148148149
+      },
+      "runs": [
+        {
+          "variant": "baseline",
+          "run": 1,
+          "mean_sim_us": 8526.783333333333,
+          "p95_sim_us": 9968,
+          "max_sim_us": 32000,
+          "mean_travel_us": 5858.016666666666
+        },
+        {
+          "variant": "baseline",
+          "run": 2,
+          "mean_sim_us": 8893.2,
+          "p95_sim_us": 10361,
+          "max_sim_us": 33465,
+          "mean_travel_us": 6195.527777777777
+        },
+        {
+          "variant": "baseline",
+          "run": 3,
+          "mean_sim_us": 8561.56111111111,
+          "p95_sim_us": 9825,
+          "max_sim_us": 33369,
+          "mean_travel_us": 5877.033333333334
+        },
+        {
+          "variant": "changed",
+          "run": 1,
+          "mean_sim_us": 8521.927777777777,
+          "p95_sim_us": 9876,
+          "max_sim_us": 33301,
+          "mean_travel_us": 5832.722222222223
+        },
+        {
+          "variant": "changed",
+          "run": 2,
+          "mean_sim_us": 8552.638888888889,
+          "p95_sim_us": 9952,
+          "max_sim_us": 33076,
+          "mean_travel_us": 5857.455555555555
+        },
+        {
+          "variant": "changed",
+          "run": 3,
+          "mean_sim_us": 8555.266666666666,
+          "p95_sim_us": 9910,
+          "max_sim_us": 34648,
+          "mean_travel_us": 5847.9111111111115
+        }
+      ],
+      "mean_sim_reduction_percent": 1.3536959354481959
+    }
+  }
+}

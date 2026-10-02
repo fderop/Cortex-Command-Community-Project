@@ -67,28 +67,27 @@ void SpatialPartitionGrid::Add(const IntRect& rect, const MovableObject& mo) {
 	// We handle wrapping in GetCellIdForCellCoords, so make sure we've not already been passed wrapped data...
 	RTEAssert(topLeftCellX <= bottomRightCellX && topLeftCellY <= bottomRightCellY, "Invalidly wrapped rect passed to spatial partitioning grid!");
 
+	std::array<bool, Activity::MaxTeamCount + 1> includedTeams;
 	for (int team = Activity::NoTeam; team < Activity::MaxTeamCount; ++team) {
 		bool teamActive = team == Activity::NoTeam || activity->TeamActive(team);
 		bool ignoresThisTeam = team != Activity::NoTeam && rootParentMo.IgnoresTeamHits() && team == rootParentMo.GetTeam();
-		if (!teamActive || ignoresThisTeam) {
-			continue;
-		}
+		includedTeams[team + 1] = teamActive && !ignoresThisTeam;
+	}
 
-		for (int x = topLeftCellX; x <= bottomRightCellX; x++) {
-			for (int y = topLeftCellY; y <= bottomRightCellY; y++) {
-				int cellId = GetCellIdForCellCoords(x, y);
+	for (int x = topLeftCellX; x <= bottomRightCellX; x++) {
+		for (int y = topLeftCellY; y <= bottomRightCellY; y++) {
+			int cellId = GetCellIdForCellCoords(x, y);
+			for (int team = Activity::NoTeam; team < Activity::MaxTeamCount; ++team) {
+				if (!includedTeams[team + 1]) {
+					continue;
+				}
 
 				m_Cells[team + 1][cellId].push_back(mo.GetID());
 				if (mo.GetsHitByMOs()) {
 					m_PhysicsCells[team + 1][cellId].push_back(mo.GetID());
 				}
 			}
-		}
-	}
-
-	for (int x = topLeftCellX; x <= bottomRightCellX; x++) {
-		for (int y = topLeftCellY; y <= bottomRightCellY; y++) {
-			m_UsedCellIds.insert(GetCellIdForCellCoords(x, y));
+			m_UsedCellIds.insert(cellId);
 		}
 	}
 }
@@ -204,6 +203,9 @@ std::vector<MovableObject*> SpatialPartitionGrid::GetMOsAtPosition(int x, int y,
 
 int SpatialPartitionGrid::GetCellIdForCellCoords(int cellX, int cellY) const {
 	// We act like we wrap, even if the Scene doesn't. The only cost is some duplicate collision checks, but that's a minor cost to pay :)
+	if (cellX >= 0 && cellX < m_Width && cellY >= 0 && cellY < m_Height) {
+		return (cellY * m_Width) + cellX;
+	}
 	int wrappedX = cellX % m_Width;
 	if (wrappedX < 0) {
 		wrappedX += m_Width;
