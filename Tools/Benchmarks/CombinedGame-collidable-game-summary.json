@@ -1,0 +1,56 @@
+{
+  "wave_size": 2000,
+  "native_default": false,
+  "warmup_ticks": 60,
+  "runs": [
+    {
+      "run": 1,
+      "variant": "baseline",
+      "mean_sim_us": 9102.66111111111,
+      "p95_sim_us": 54797,
+      "max_sim_us": 130192,
+      "mean_travel_us": 8201.016666666666
+    },
+    {
+      "run": 1,
+      "variant": "changed",
+      "mean_sim_us": 8503.127777777778,
+      "p95_sim_us": 49339,
+      "max_sim_us": 121096,
+      "mean_travel_us": 7617.9111111111115
+    },
+    {
+      "run": 2,
+      "variant": "changed",
+      "mean_sim_us": 8557.35,
+      "p95_sim_us": 49248,
+      "max_sim_us": 120038,
+      "mean_travel_us": 7662.183333333333
+    },
+    {
+      "run": 2,
+      "variant": "baseline",
+      "mean_sim_us": 9125.538888888888,
+      "p95_sim_us": 56488,
+      "max_sim_us": 129845,
+      "mean_travel_us": 8217.955555555556
+    },
+    {
+      "run": 3,
+      "variant": "baseline",
+      "mean_sim_us": 9148.633333333333,
+      "p95_sim_us": 54323,
+      "max_sim_us": 129204,
+      "mean_travel_us": 8255.972222222223
+    },
+    {
+      "run": 3,
+      "variant": "changed",
+      "mean_sim_us": 8631.155555555555,
+      "p95_sim_us": 49447,
+      "max_sim_us": 122540,
+      "mean_travel_us": 7743.727777777778
+    }
+  ],
+  "particle_sequences_match": true
+}

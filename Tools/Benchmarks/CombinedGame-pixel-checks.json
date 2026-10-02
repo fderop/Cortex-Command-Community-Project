@@ -1,0 +1,9 @@
+{
+  "combined_head": "0567f7aa1",
+  "cpu_cases": 1096,
+  "cpu_hash": "15073311523546579531",
+  "gpu_cases": 6,
+  "gpu_hash": "15926731766284440575",
+  "matches_independent_baseline": true,
+  "gpu_startup_diagnostic": "GLAD: ERROR 1280 in glGetIntegerv! (also present in baseline)"
+}
