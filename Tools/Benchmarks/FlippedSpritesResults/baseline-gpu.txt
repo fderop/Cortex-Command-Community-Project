@@ -1,0 +1,9 @@
+behavior_hash=15073311523546579531 cases=1096
+GLAD: ERROR 1280 in glGetIntegerv!
+gpu_flip=0 angle=0 drawn_pixels=480
+gpu_flip=0 angle=0.17 drawn_pixels=479
+gpu_flip=0 angle=-0.95 drawn_pixels=482
+gpu_flip=1 angle=0 drawn_pixels=480
+gpu_flip=1 angle=0.17 drawn_pixels=480
+gpu_flip=1 angle=-0.95 drawn_pixels=481
+gpu_hash=15926731766284440575 cases=6

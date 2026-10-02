@@ -20,6 +20,7 @@ using namespace RTE;
 const std::string ContentFile::c_ClassName = "ContentFile";
 
 std::array<std::unordered_map<std::string, BITMAP*>, ContentFile::BitDepths::BitDepthCount> ContentFile::s_LoadedBitmaps;
+std::unordered_map<BITMAP*, BITMAP*> ContentFile::s_FlippedBitmaps;
 std::unordered_map<std::string, SDL_Surface*> ContentFile::s_MemoryPNGs;
 std::unordered_map<std::string, FMOD::Sound*> ContentFile::s_LoadedSamples;
 std::unordered_map<size_t, std::string> ContentFile::s_PathHashes;
@@ -53,6 +54,10 @@ int ContentFile::Create(const ContentFile& reference) {
 }
 
 void ContentFile::FreeAllLoaded() {
+	for (const auto& [source, flipped]: s_FlippedBitmaps) {
+		destroy_bitmap(flipped);
+	}
+	s_FlippedBitmaps.clear();
 	for (int depth = BitDepths::Eight; depth < BitDepths::BitDepthCount; ++depth) {
 		for (const auto& [bitmapPath, bitmapPtr]: s_LoadedBitmaps[depth]) {
 			destroy_bitmap(bitmapPtr);
@@ -210,7 +215,8 @@ void ContentFile::ManuallyLoadDataPNG(const std::string& filePath, SDL_Surface* 
 		       surface->w * SDL_BYTESPERPIXEL(surface->format));
 	}
 
-	s_LoadedBitmaps[BitDepths::Eight].try_emplace(filePath, bitmap);
+	auto [entry, inserted] = s_LoadedBitmaps[BitDepths::Eight].try_emplace(filePath, bitmap);
+	s_FlippedBitmaps.try_emplace(entry->second, nullptr);
 }
 
 void ContentFile::ReloadAllBitmaps() {
@@ -220,6 +226,27 @@ void ContentFile::ReloadAllBitmaps() {
 		}
 	}
 	g_ConsoleMan.PrintString("SYSTEM: Sprites reloaded");
+}
+
+BITMAP* ContentFile::GetFlippedBitmap(BITMAP* bitmap) {
+	auto entry = s_FlippedBitmaps.find(bitmap);
+	if (entry == s_FlippedBitmaps.end()) {
+		return nullptr;
+	}
+	if (!entry->second) {
+		entry->second = create_bitmap_ex(8, bitmap->w, bitmap->h);
+		clear_to_color(entry->second, ColorKeys::g_MaskColor);
+		draw_sprite_h_flip(entry->second, bitmap, 0, 0);
+	}
+	return entry->second;
+}
+
+void ContentFile::RemoveFlippedBitmap(BITMAP* bitmap) {
+	auto entry = s_FlippedBitmaps.find(bitmap);
+	if (entry != s_FlippedBitmaps.end()) {
+		destroy_bitmap(entry->second);
+		s_FlippedBitmaps.erase(entry);
+	}
 }
 
 BITMAP* ContentFile::GetAsBitmap(int conversionMode, bool storeBitmap, const std::string& dataPathToSpecificFrame) {
@@ -243,6 +270,7 @@ BITMAP* ContentFile::GetAsBitmap(int conversionMode, bool storeBitmap, const std
 			std::unordered_map<std::string, BITMAP*>::iterator foundBitmap = s_LoadedBitmaps[BitDepths::Eight].find(dataPathToLoad);
 			if (foundBitmap != s_LoadedBitmaps[BitDepths::Eight].end()) {
 				returnBitmap = foundBitmap->second;
+				RemoveFlippedBitmap(returnBitmap);
 				s_LoadedBitmaps[BitDepths::Eight].erase(dataPathToLoad);
 			}
 
@@ -269,6 +297,7 @@ BITMAP* ContentFile::GetAsBitmap(int conversionMode, bool storeBitmap, const std
 		// Insert the bitmap into the map, PASSING OVER OWNERSHIP OF THE LOADED DATAFILE
 		if (storeBitmap) {
 			s_LoadedBitmaps[bitDepth].try_emplace(dataPathToLoad, returnBitmap);
+			s_FlippedBitmaps.try_emplace(returnBitmap, nullptr);
 		}
 	}
 
@@ -448,6 +477,8 @@ void ContentFile::ReloadBitmap(const std::string& filePath, int conversionMode) 
 	set_color_conversion((conversionMode == COLORCONV_NONE) ? COLORCONV_NONE : conversionMode);
 
 	BITMAP* loadedBitmap = (*bmpItr).second;
+	RemoveFlippedBitmap(loadedBitmap);
+	s_FlippedBitmaps.try_emplace(loadedBitmap, nullptr);
 
 	SDL_Surface* newImage = LoadImageAsSurface(conversionMode, filePath);
 

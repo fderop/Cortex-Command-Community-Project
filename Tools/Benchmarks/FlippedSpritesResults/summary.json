@@ -1,0 +1,212 @@
+[
+  {
+    "size": 12,
+    "unique": 1,
+    "baseline": {
+      "warm_median_ms": 22.355,
+      "pair_medians_ms": [
+        22.467,
+        22.258,
+        22.178
+      ],
+      "cold_median_ms": 0.272,
+      "cold_ms": [
+        0.278,
+        0.271,
+        0.272
+      ],
+      "pixels_hash": "12316631879379964747"
+    },
+    "changed": {
+      "warm_median_ms": 15.843,
+      "pair_medians_ms": [
+        15.803,
+        15.837,
+        16.055
+      ],
+      "cold_median_ms": 0.222,
+      "cold_ms": [
+        0.222,
+        0.228,
+        0.217
+      ],
+      "pixels_hash": "12316631879379964747"
+    },
+    "reduction_pct": 29.129948557369723
+  },
+  {
+    "size": 24,
+    "unique": 8,
+    "baseline": {
+      "warm_median_ms": 90.951,
+      "pair_medians_ms": [
+        90.741,
+        90.858,
+        95.023
+      ],
+      "cold_median_ms": 0.858,
+      "cold_ms": [
+        0.822,
+        0.858,
+        0.874
+      ],
+      "pixels_hash": "5164470368415242364"
+    },
+    "changed": {
+      "warm_median_ms": 61.75,
+      "pair_medians_ms": [
+        61.658,
+        61.964,
+        61.702
+      ],
+      "cold_median_ms": 0.674,
+      "cold_ms": [
+        0.697,
+        0.674,
+        0.666
+      ],
+      "pixels_hash": "5164470368415242364"
+    },
+    "reduction_pct": 32.106298996162764
+  },
+  {
+    "size": 64,
+    "unique": 8,
+    "baseline": {
+      "warm_median_ms": 484.79,
+      "pair_medians_ms": [
+        482.23,
+        484.361,
+        498.807
+      ],
+      "cold_median_ms": 3.979,
+      "cold_ms": [
+        3.964,
+        3.979,
+        4.288
+      ],
+      "pixels_hash": "7540584506724982554"
+    },
+    "changed": {
+      "warm_median_ms": 331.36,
+      "pair_medians_ms": [
+        330.853,
+        331.156,
+        334.907
+      ],
+      "cold_median_ms": 2.824,
+      "cold_ms": [
+        2.787,
+        2.824,
+        2.831
+      ],
+      "pixels_hash": "7540584506724982554"
+    },
+    "reduction_pct": 31.64875513108769
+  },
+  {
+    "size": 128,
+    "unique": 8,
+    "baseline": {
+      "warm_median_ms": 1593.83,
+      "pair_medians_ms": [
+        1588.78,
+        1596.3,
+        1601.39
+      ],
+      "cold_median_ms": 12.586,
+      "cold_ms": [
+        12.586,
+        12.416,
+        12.634
+      ],
+      "pixels_hash": "17320702199430413249"
+    },
+    "changed": {
+      "warm_median_ms": 1028.64,
+      "pair_medians_ms": [
+        1019.36,
+        1028.64,
+        1053.47
+      ],
+      "cold_median_ms": 7.945,
+      "cold_ms": [
+        8.038,
+        7.945,
+        7.803
+      ],
+      "pixels_hash": "17320702199430413249"
+    },
+    "reduction_pct": 35.46112195152556
+  },
+  {
+    "size": 24,
+    "unique": 512,
+    "baseline": {
+      "warm_median_ms": 88.733,
+      "pair_medians_ms": [
+        88.658,
+        93.817,
+        88.628
+      ],
+      "cold_median_ms": 0.839,
+      "cold_ms": [
+        0.825,
+        0.839,
+        0.87
+      ],
+      "pixels_hash": "12191707828478896987"
+    },
+    "changed": {
+      "warm_median_ms": 66.646,
+      "pair_medians_ms": [
+        63.836,
+        66.646,
+        72.82
+      ],
+      "cold_median_ms": 0.889,
+      "cold_ms": [
+        0.906,
+        0.87,
+        0.889
+      ],
+      "pixels_hash": "12191707828478896987"
+    },
+    "reduction_pct": 24.891528518138685
+  },
+  {
+    "size": 64,
+    "unique": 512,
+    "baseline": {
+      "warm_median_ms": 491.085,
+      "pair_medians_ms": [
+        482.648,
+        496.972,
+        491.085
+      ],
+      "cold_median_ms": 4.054,
+      "cold_ms": [
+        3.949,
+        4.072,
+        4.054
+      ],
+      "pixels_hash": "651891823647941672"
+    },
+    "changed": {
+      "warm_median_ms": 346.401,
+      "pair_medians_ms": [
+        346.401,
+        350.961,
+        333.246
+      ],
+      "cold_median_ms": 4.241,
+      "cold_ms": [
+        4.241,
+        4.219,
+        4.36
+      ],
+      "pixels_hash": "651891823647941672"
+    },
+    "reduction_pct": 29.462109410794458
+  }
+]
