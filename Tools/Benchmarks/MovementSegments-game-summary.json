@@ -1,0 +1,25 @@
+{
+  "baseline_ref": "41e6b7010817936e09d2929330b7519852a1fcca",
+  "pairs": 1,
+  "excluded_initial_ticks": 60,
+  "samples_per_run": 240,
+  "seed": "731 + capture sample index",
+  "waves": "400 collidable stock gibs + actual frag grenade explosions every 60 ticks",
+  "variants": {
+    "baseline": {
+      "simulation_mean_us": 2571.3444444444444,
+      "movable_mean_us": 2391.516666666667
+    },
+    "changed": {
+      "simulation_mean_us": 2876.3277777777776,
+      "movable_mean_us": 2692.0833333333335
+    }
+  },
+  "particles_equal": false,
+  "particles_differ_ticks": 239,
+  "first_particle_difference": {
+    "tick": 1,
+    "baseline": 487,
+    "changed": 484
+  }
+}

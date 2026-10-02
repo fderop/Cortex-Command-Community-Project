@@ -1,0 +1,150 @@
+trace_mode=dense-1 segment=0 scheduled=12 actual=12 time_left=0.02
+trace_mode=dense-1 segment=0 steps=7 hit=1 halted=0 progress=0.5
+trace_mode=dense-1 segment=1 scheduled=5 actual=5 time_left=0.01
+trace_mode=dense-1 segment=1 steps=1 hit=1 halted=0 progress=0
+trace_mode=dense-1 segment=2 scheduled=4 actual=4 time_left=0.01
+trace_mode=dense-1 segment=2 steps=1 hit=1 halted=0 progress=0
+trace_mode=dense-1 segment=3 scheduled=4 actual=4 time_left=0.01
+trace_mode=dense-1 segment=3 steps=1 hit=1 halted=0 progress=0
+trace_mode=dense-1 segment=4 scheduled=3 actual=3 time_left=0.01
+trace_mode=dense-1 segment=4 steps=1 hit=1 halted=0 progress=0
+trace_mode=dense-1 segment=5 scheduled=3 actual=3 time_left=0.01
+trace_mode=dense-1 segment=5 steps=1 hit=1 halted=0 progress=0
+trace_mode=dense-1 segment=6 scheduled=3 actual=3 time_left=0.01
+trace_mode=dense-1 segment=6 steps=1 hit=1 halted=0 progress=0
+trace_mode=dense-1 segment=7 scheduled=2 actual=2 time_left=0.01
+trace_mode=dense-1 segment=7 steps=1 hit=1 halted=0 progress=0
+trace_mode=dense-1 segment=8 scheduled=2 actual=2 time_left=0.01
+trace_mode=dense-1 segment=8 steps=1 hit=1 halted=0 progress=0
+trace_mode=dense-1 segment=9 scheduled=2 actual=2 time_left=0.01
+trace_mode=dense-1 segment=9 steps=1 hit=1 halted=0 progress=0
+trace_mode=dense-1 segment=10 scheduled=2 actual=2 time_left=0.01
+trace_mode=dense-1 segment=10 steps=1 hit=1 halted=0 progress=0
+state_mode=dense-1 x=126.25 y=128.25 vx=7.65176105 vy=0.333210617 rotation=-0.00140000007 angular=-0.0399999805 remaining=0.00999999978
+mode=dense-1 behavior_hash=3789465275477896721 responses=175610 segments=2816 scheduled_steps=12382 shorter=0 zero=0 one=48 halted=48
+trace_mode=dense-8 segment=0 scheduled=12 actual=12 time_left=0.020
+trace_mode=dense-8 segment=0 steps=7 hit=1 halted=0 progress=0.500
+trace_mode=dense-8 segment=1 scheduled=5 actual=5 time_left=0.010
+trace_mode=dense-8 segment=1 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=dense-8 segment=2 scheduled=4 actual=4 time_left=0.010
+trace_mode=dense-8 segment=2 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=dense-8 segment=3 scheduled=3 actual=3 time_left=0.010
+trace_mode=dense-8 segment=3 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=dense-8 segment=4 scheduled=3 actual=3 time_left=0.010
+trace_mode=dense-8 segment=4 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=dense-8 segment=5 scheduled=2 actual=2 time_left=0.010
+trace_mode=dense-8 segment=5 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=dense-8 segment=6 scheduled=2 actual=2 time_left=0.010
+trace_mode=dense-8 segment=6 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=dense-8 segment=7 scheduled=2 actual=2 time_left=0.010
+trace_mode=dense-8 segment=7 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=dense-8 segment=8 scheduled=1 actual=1 time_left=0.010
+trace_mode=dense-8 segment=8 steps=1 hit=1 halted=1 progress=0.000
+state_mode=dense-8 x=126.250000000 y=128.250000000 vx=6.943657875 vy=0.012058090 rotation=-0.001400000 angular=-0.039999936 remaining=0.010000000
+mode=dense-8 behavior_hash=13191557480423223333 responses=165672 segments=2631 scheduled_steps=11077 shorter=0 zero=0 one=218 halted=218
+trace_mode=dense-32 segment=0 scheduled=12 actual=12 time_left=0.020
+trace_mode=dense-32 segment=0 steps=7 hit=1 halted=0 progress=0.500
+trace_mode=dense-32 segment=1 scheduled=5 actual=5 time_left=0.010
+trace_mode=dense-32 segment=1 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=dense-32 segment=2 scheduled=4 actual=4 time_left=0.010
+trace_mode=dense-32 segment=2 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=dense-32 segment=3 scheduled=3 actual=3 time_left=0.010
+trace_mode=dense-32 segment=3 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=dense-32 segment=4 scheduled=3 actual=3 time_left=0.010
+trace_mode=dense-32 segment=4 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=dense-32 segment=5 scheduled=2 actual=2 time_left=0.010
+trace_mode=dense-32 segment=5 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=dense-32 segment=6 scheduled=2 actual=2 time_left=0.010
+trace_mode=dense-32 segment=6 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=dense-32 segment=7 scheduled=2 actual=2 time_left=0.010
+trace_mode=dense-32 segment=7 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=dense-32 segment=8 scheduled=1 actual=1 time_left=0.010
+trace_mode=dense-32 segment=8 steps=1 hit=1 halted=1 progress=0.000
+state_mode=dense-32 x=126.250000000 y=128.250000000 vx=6.743008137 vy=0.023782033 rotation=-0.001400000 angular=-0.039999973 remaining=0.010000000
+mode=dense-32 behavior_hash=3035967636214115245 responses=162092 segments=2627 scheduled_steps=11044 shorter=0 zero=0 one=220 halted=220
+trace_mode=terrain segment=0 scheduled=12 actual=12 time_left=0.020
+trace_mode=terrain segment=0 steps=7 hit=1 halted=0 progress=0.500
+trace_mode=terrain segment=1 scheduled=0 actual=0 time_left=0.010
+trace_mode=terrain segment=1 steps=0 hit=0 halted=0 progress=0.000
+state_mode=terrain x=126.980583191 y=128.249954224 vx=3.652934790 vy=-0.000246961 rotation=-0.000198461 angular=0.120153934 remaining=0.000000000
+mode=terrain behavior_hash=3806807175952506014 responses=0 segments=512 scheduled_steps=3573 shorter=0 zero=9 one=247 halted=247
+trace_mode=air segment=0 scheduled=12 actual=12 time_left=0.020
+trace_mode=air segment=0 steps=12 hit=0 halted=0 progress=0.000
+state_mode=air x=132.250000000 y=128.250000000 vx=30.000000000 vy=0.000000000 rotation=-0.001800000 angular=-0.039999999 remaining=0.000000000
+mode=air behavior_hash=16994007857569456424 responses=0 segments=256 scheduled_steps=3326 shorter=0 zero=0 one=0 halted=0
+state_mode=push-terrain x=126.250000000 y=128.250000000 vx=30.000000000 vy=0.000000000 rotation=-0.001000000 angular=-0.039999999 remaining=0.000000000
+mode=push-terrain behavior_hash=18279129362497917356 responses=0 segments=0 scheduled_steps=0 shorter=0 zero=0 one=0 halted=0
+state_mode=push-air x=132.250000000 y=128.250000000 vx=30.000000000 vy=0.000000000 rotation=-0.001000000 angular=-0.039999999 remaining=0.000000000
+mode=push-air behavior_hash=12725381982755921557 responses=0 segments=0 scheduled_steps=0 shorter=0 zero=0 one=0 halted=0
+trace_mode=spin-air segment=0 scheduled=18 actual=18 time_left=0.020
+trace_mode=spin-air segment=0 steps=18 hit=0 halted=0 progress=0.000
+trace_mode=spin-air segment=1 scheduled=13 actual=13 time_left=0.015
+trace_mode=spin-air segment=1 steps=13 hit=0 halted=0 progress=0.000
+trace_mode=spin-air segment=2 scheduled=16 actual=16 time_left=0.010
+trace_mode=spin-air segment=2 steps=16 hit=0 halted=0 progress=0.000
+trace_mode=spin-air segment=3 scheduled=13 actual=13 time_left=0.004
+trace_mode=spin-air segment=3 steps=13 hit=0 halted=0 progress=0.000
+state_mode=spin-air x=132.250000000 y=128.250000000 vx=30.000000000 vy=0.000000000 rotation=1.999000072 angular=100.000000000 remaining=0.000000000
+mode=spin-air behavior_hash=5596428787399933301 responses=0 segments=1096 scheduled_steps=16041 shorter=0 zero=0 one=72 halted=0
+trace_mode=spin-dense segment=0 scheduled=18 actual=18 time_left=0.020
+trace_mode=spin-dense segment=0 steps=7 hit=1 halted=0 progress=0.333
+trace_mode=spin-dense segment=1 scheduled=16 actual=16 time_left=0.018
+trace_mode=spin-dense segment=1 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=spin-dense segment=2 scheduled=16 actual=16 time_left=0.018
+trace_mode=spin-dense segment=2 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=spin-dense segment=3 scheduled=16 actual=16 time_left=0.018
+trace_mode=spin-dense segment=3 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=spin-dense segment=4 scheduled=16 actual=16 time_left=0.018
+trace_mode=spin-dense segment=4 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=spin-dense segment=5 scheduled=16 actual=16 time_left=0.018
+trace_mode=spin-dense segment=5 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=spin-dense segment=6 scheduled=16 actual=16 time_left=0.018
+trace_mode=spin-dense segment=6 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=spin-dense segment=7 scheduled=16 actual=16 time_left=0.018
+trace_mode=spin-dense segment=7 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=spin-dense segment=8 scheduled=16 actual=16 time_left=0.018
+trace_mode=spin-dense segment=8 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=spin-dense segment=9 scheduled=16 actual=16 time_left=0.018
+trace_mode=spin-dense segment=9 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=spin-dense segment=10 scheduled=16 actual=16 time_left=0.018
+trace_mode=spin-dense segment=10 steps=1 hit=1 halted=0 progress=0.000
+state_mode=spin-dense x=121.297195435 y=128.250000000 vx=26.732114792 vy=-9.407323837 rotation=0.173532933 angular=100.000000000 remaining=0.018254669
+mode=spin-dense behavior_hash=72920890668580185 responses=3615 segments=2816 scheduled_steps=47425 shorter=0 zero=0 one=0 halted=0
+trace_mode=spin-terrain segment=0 scheduled=18 actual=18 time_left=0.020
+trace_mode=spin-terrain segment=0 steps=7 hit=1 halted=0 progress=0.333
+trace_mode=spin-terrain segment=1 scheduled=26 actual=26 time_left=0.018
+trace_mode=spin-terrain segment=1 steps=26 hit=0 halted=0 progress=0.000
+state_mode=spin-terrain x=105.518981934 y=128.466567993 vx=-43.216934204 vy=0.593183339 rotation=-0.171161145 angular=-18.882514954 remaining=0.000000000
+mode=spin-terrain behavior_hash=16546552058501097499 responses=0 segments=512 scheduled_steps=11591 shorter=0 zero=0 one=0 halted=0
+trace_mode=rebounds segment=0 scheduled=200 actual=200 time_left=0.020
+trace_mode=rebounds segment=0 steps=7 hit=1 halted=0 progress=0.030
+trace_mode=rebounds segment=1 scheduled=25 actual=25 time_left=0.019
+trace_mode=rebounds segment=1 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=rebounds segment=2 scheduled=23 actual=23 time_left=0.019
+trace_mode=rebounds segment=2 steps=1 hit=1 halted=0 progress=0.000
+trace_mode=rebounds segment=3 scheduled=16 actual=16 time_left=0.019
+trace_mode=rebounds segment=3 steps=2 hit=1 halted=0 progress=0.062
+trace_mode=rebounds segment=4 scheduled=9 actual=9 time_left=0.018
+trace_mode=rebounds segment=4 steps=9 hit=0 halted=0 progress=0.000
+state_mode=rebounds x=119.932327271 y=128.238632202 vx=-17.003057480 vy=-0.024125561 rotation=0.112571195 angular=4.759324551 remaining=0.000000000
+mode=rebounds behavior_hash=17636147357297010662 responses=0 segments=1280 scheduled_steps=69888 shorter=0 zero=0 one=0 halted=0
+trace_mode=deceleration segment=0 scheduled=8 actual=8 time_left=0.020
+trace_mode=deceleration segment=0 steps=7 hit=1 halted=0 progress=0.750
+trace_mode=deceleration segment=1 scheduled=0 actual=0 time_left=0.005
+trace_mode=deceleration segment=1 steps=0 hit=0 halted=0 progress=0.000
+state_mode=deceleration x=126.493530273 y=128.249969482 vx=2.435308933 vy=-0.000246961 rotation=-0.001231772 angular=0.073645666 remaining=0.000000000
+mode=deceleration behavior_hash=13464933268612556296 responses=0 segments=512 scheduled_steps=2371 shorter=0 zero=187 one=69 halted=69
+trace_mode=zero-step segment=0 scheduled=0 actual=0 time_left=0.020
+trace_mode=zero-step segment=0 steps=0 hit=0 halted=0 progress=0.000
+state_mode=zero-step x=120.253997803 y=128.250000000 vx=0.010000000 vy=0.000000000 rotation=-0.001000000 angular=0.000000000 remaining=0.000000000
+mode=zero-step behavior_hash=1894011318841712991 responses=0 segments=256 scheduled_steps=0 shorter=0 zero=256 one=0 halted=0
+trace_mode=one-step segment=0 scheduled=1 actual=1 time_left=0.020
+trace_mode=one-step segment=0 steps=1 hit=0 halted=0 progress=0.000
+state_mode=one-step x=121.050003052 y=128.250000000 vx=2.000000000 vy=0.000000000 rotation=-0.001000000 angular=0.000000000 remaining=0.000000000
+mode=one-step behavior_hash=5967075581756384779 responses=0 segments=256 scheduled_steps=256 shorter=0 zero=0 one=256 halted=0
+trace_mode=spin-zero-tail segment=0 scheduled=17 actual=17 time_left=0.020
+trace_mode=spin-zero-tail segment=0 steps=17 hit=0 halted=0 progress=0.000
+trace_mode=spin-zero-tail segment=1 scheduled=0 actual=0 time_left=0.000
+trace_mode=spin-zero-tail segment=1 steps=0 hit=0 halted=0 progress=0.000
+state_mode=spin-zero-tail x=120.250000000 y=128.250000000 vx=0.000000000 vy=0.000000000 rotation=0.523000002 angular=26.200000763 remaining=0.000000000
+mode=spin-zero-tail behavior_hash=17460982291223394719 responses=0 segments=512 scheduled_steps=4352 shorter=0 zero=256 one=0 halted=0

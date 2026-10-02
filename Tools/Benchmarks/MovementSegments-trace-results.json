@@ -1,0 +1,848 @@
+{
+  "baseline_ref": "41e6b7010817936e09d2929330b7519852a1fcca",
+  "calls_per_sample": 64,
+  "runs": 1,
+  "modes": {
+    "dense-1": {
+      "baseline": {
+        "behavior_hashes": [
+          1015060394229153914
+        ],
+        "responses": [
+          89956
+        ],
+        "segments": [
+          1804
+        ],
+        "scheduled_steps": [
+          23611
+        ],
+        "shorter": [
+          1548
+        ],
+        "zero": [
+          182
+        ],
+        "one": [
+          333
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          3789465275477896721
+        ],
+        "responses": [
+          175610
+        ],
+        "segments": [
+          2816
+        ],
+        "scheduled_steps": [
+          12382
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          48
+        ],
+        "halted": [
+          48
+        ]
+      },
+      "behavior_matches": false,
+      "response_count_matches": false
+    },
+    "dense-8": {
+      "baseline": {
+        "behavior_hashes": [
+          10678557251391008333
+        ],
+        "responses": [
+          87690
+        ],
+        "segments": [
+          1725
+        ],
+        "scheduled_steps": [
+          22495
+        ],
+        "shorter": [
+          1469
+        ],
+        "zero": [
+          182
+        ],
+        "one": [
+          299
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          13191557480423223333
+        ],
+        "responses": [
+          165672
+        ],
+        "segments": [
+          2631
+        ],
+        "scheduled_steps": [
+          11077
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          218
+        ],
+        "halted": [
+          218
+        ]
+      },
+      "behavior_matches": false,
+      "response_count_matches": false
+    },
+    "dense-32": {
+      "baseline": {
+        "behavior_hashes": [
+          6501605824948049464
+        ],
+        "responses": [
+          84035
+        ],
+        "segments": [
+          1658
+        ],
+        "scheduled_steps": [
+          21645
+        ],
+        "shorter": [
+          1402
+        ],
+        "zero": [
+          188
+        ],
+        "one": [
+          275
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          3035967636214115245
+        ],
+        "responses": [
+          162092
+        ],
+        "segments": [
+          2627
+        ],
+        "scheduled_steps": [
+          11044
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          220
+        ],
+        "halted": [
+          220
+        ]
+      },
+      "behavior_matches": false,
+      "response_count_matches": false
+    },
+    "terrain": {
+      "baseline": {
+        "behavior_hashes": [
+          15405424348098678617
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          696
+        ],
+        "scheduled_steps": [
+          9116
+        ],
+        "shorter": [
+          440
+        ],
+        "zero": [
+          175
+        ],
+        "one": [
+          265
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          3806807175952506014
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          512
+        ],
+        "scheduled_steps": [
+          3573
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          9
+        ],
+        "one": [
+          247
+        ],
+        "halted": [
+          247
+        ]
+      },
+      "behavior_matches": false,
+      "response_count_matches": true
+    },
+    "air": {
+      "baseline": {
+        "behavior_hashes": [
+          16994007857569456424
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          256
+        ],
+        "scheduled_steps": [
+          3326
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          16994007857569456424
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          256
+        ],
+        "scheduled_steps": [
+          3326
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "behavior_matches": true,
+      "response_count_matches": true
+    },
+    "push-terrain": {
+      "baseline": {
+        "behavior_hashes": [
+          18279129362497917356
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          0
+        ],
+        "scheduled_steps": [
+          0
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          18279129362497917356
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          0
+        ],
+        "scheduled_steps": [
+          0
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "behavior_matches": true,
+      "response_count_matches": true
+    },
+    "push-air": {
+      "baseline": {
+        "behavior_hashes": [
+          12725381982755921557
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          0
+        ],
+        "scheduled_steps": [
+          0
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          12725381982755921557
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          0
+        ],
+        "scheduled_steps": [
+          0
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "behavior_matches": true,
+      "response_count_matches": true
+    },
+    "spin-air": {
+      "baseline": {
+        "behavior_hashes": [
+          5596428787399933301
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          1096
+        ],
+        "scheduled_steps": [
+          19728
+        ],
+        "shorter": [
+          840
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          72
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          5596428787399933301
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          1096
+        ],
+        "scheduled_steps": [
+          16041
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          72
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "behavior_matches": true,
+      "response_count_matches": true
+    },
+    "spin-dense": {
+      "baseline": {
+        "behavior_hashes": [
+          13015637482982532842
+        ],
+        "responses": [
+          34032
+        ],
+        "segments": [
+          2816
+        ],
+        "scheduled_steps": [
+          50688
+        ],
+        "shorter": [
+          2560
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          72920890668580185
+        ],
+        "responses": [
+          3615
+        ],
+        "segments": [
+          2816
+        ],
+        "scheduled_steps": [
+          47425
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "behavior_matches": false,
+      "response_count_matches": false
+    },
+    "spin-terrain": {
+      "baseline": {
+        "behavior_hashes": [
+          16546552058501097499
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          512
+        ],
+        "scheduled_steps": [
+          11591
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          16546552058501097499
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          512
+        ],
+        "scheduled_steps": [
+          11591
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "behavior_matches": true,
+      "response_count_matches": true
+    },
+    "rebounds": {
+      "baseline": {
+        "behavior_hashes": [
+          3228262039594774327
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          1622
+        ],
+        "scheduled_steps": [
+          324400
+        ],
+        "shorter": [
+          1366
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          171
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          17636147357297010662
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          1280
+        ],
+        "scheduled_steps": [
+          69888
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "behavior_matches": false,
+      "response_count_matches": true
+    },
+    "deceleration": {
+      "baseline": {
+        "behavior_hashes": [
+          3213232016839400186
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          620
+        ],
+        "scheduled_steps": [
+          5616
+        ],
+        "shorter": [
+          364
+        ],
+        "zero": [
+          244
+        ],
+        "one": [
+          120
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          13464933268612556296
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          512
+        ],
+        "scheduled_steps": [
+          2371
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          187
+        ],
+        "one": [
+          69
+        ],
+        "halted": [
+          69
+        ]
+      },
+      "behavior_matches": false,
+      "response_count_matches": true
+    },
+    "zero-step": {
+      "baseline": {
+        "behavior_hashes": [
+          1894011318841712991
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          256
+        ],
+        "scheduled_steps": [
+          0
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          256
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          1894011318841712991
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          256
+        ],
+        "scheduled_steps": [
+          0
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          256
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "behavior_matches": true,
+      "response_count_matches": true
+    },
+    "one-step": {
+      "baseline": {
+        "behavior_hashes": [
+          5967075581756384779
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          256
+        ],
+        "scheduled_steps": [
+          256
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          256
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          5967075581756384779
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          256
+        ],
+        "scheduled_steps": [
+          256
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          0
+        ],
+        "one": [
+          256
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "behavior_matches": true,
+      "response_count_matches": true
+    },
+    "spin-zero-tail": {
+      "baseline": {
+        "behavior_hashes": [
+          17460982291223394719
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          512
+        ],
+        "scheduled_steps": [
+          8704
+        ],
+        "shorter": [
+          256
+        ],
+        "zero": [
+          256
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "changed": {
+        "behavior_hashes": [
+          17460982291223394719
+        ],
+        "responses": [
+          0
+        ],
+        "segments": [
+          512
+        ],
+        "scheduled_steps": [
+          4352
+        ],
+        "shorter": [
+          0
+        ],
+        "zero": [
+          256
+        ],
+        "one": [
+          0
+        ],
+        "halted": [
+          0
+        ]
+      },
+      "behavior_matches": true,
+      "response_count_matches": true
+    }
+  },
+  "trace": true
+}
