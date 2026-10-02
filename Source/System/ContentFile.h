@@ -124,6 +124,9 @@ namespace RTE {
 		/// Reloads all BITMAPs in the cache from disk, allowing any changes to be reflected at runtime.
 		static void ReloadAllBitmaps();
 
+		/// Gets a cached horizontal flip of a loaded sprite bitmap, or nullptr for a bitmap outside this cache. Ownership stays with ContentFile.
+		static BITMAP* GetFlippedBitmap(BITMAP* bitmap);
+
 		/// Gets the data represented by this ContentFile object as an Allegro BITMAP, loading it into the static maps if it's not already loaded. Note that ownership of the BITMAP is NOT transferred!
 		/// @param conversionMode The Allegro color conversion mode to use when loading this bitmap.
 		/// @param storeBitmap Whether to store the BITMAP in the relevant static map after loading it or not. If this is false, ownership of the BITMAP IS transferred!
@@ -180,6 +183,7 @@ namespace RTE {
 
 		static std::unordered_map<size_t, std::string> s_PathHashes; //!< Static map containing the hash values of paths of all loaded data files.
 		static std::array<std::unordered_map<std::string, BITMAP*>, BitDepths::BitDepthCount> s_LoadedBitmaps; //!< Static map containing all the already loaded BITMAPs and their paths for each bit depth.
+		static std::unordered_map<BITMAP*, BITMAP*> s_FlippedBitmaps; //!< Horizontal flips of unmodified shared sprite bitmaps.
 		static std::unordered_map<std::string, SDL_Surface*> s_MemoryPNGs; //!< Static map containing in-memory PNG files for save/load
 		static std::unordered_map<std::string, FMOD::Sound*> s_LoadedSamples; //!< Static map containing all the already loaded FSOUND_SAMPLEs and their paths.
 
@@ -239,6 +243,7 @@ namespace RTE {
 		/// @param filePath The filepath to the bitmap we want to reload.
 		/// @param conversionMode The Allegro color conversion mode to use when reloading this bitmap.
 		static void ReloadBitmap(const std::string& filePath, int conversionMode = 0);
+		static void RemoveFlippedBitmap(BITMAP* bitmap);
 
 		/// Set alpha value of non mask color pixels to 255 for 32-bit bitmaps. (WARN: would override existing alpha values!)
 		static void AddAlphaChannel(BITMAP* bitmap);

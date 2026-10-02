@@ -1,0 +1,55 @@
+{
+  "baseline": [
+    {
+      "pair": 1,
+      "simulation_mean_us": 2578.5833333333335,
+      "simulation_p95_us": 8645,
+      "color_mean_us": 129.39444444444445,
+      "color_p95_us": 198,
+      "travel_mean_us": 2073.9555555555557
+    },
+    {
+      "pair": 2,
+      "simulation_mean_us": 2488.016666666667,
+      "simulation_p95_us": 8072,
+      "color_mean_us": 125.9888888888889,
+      "color_p95_us": 186,
+      "travel_mean_us": 1989.861111111111
+    },
+    {
+      "pair": 3,
+      "simulation_mean_us": 2534.261111111111,
+      "simulation_p95_us": 8067,
+      "color_mean_us": 129.41666666666666,
+      "color_p95_us": 190,
+      "travel_mean_us": 2015.75
+    }
+  ],
+  "changed": [
+    {
+      "pair": 1,
+      "simulation_mean_us": 2499.6444444444446,
+      "simulation_p95_us": 8196,
+      "color_mean_us": 102.86666666666666,
+      "color_p95_us": 155,
+      "travel_mean_us": 2015.3111111111111
+    },
+    {
+      "pair": 2,
+      "simulation_mean_us": 2497.438888888889,
+      "simulation_p95_us": 8177,
+      "color_mean_us": 102.10555555555555,
+      "color_p95_us": 156,
+      "travel_mean_us": 2008.95
+    },
+    {
+      "pair": 3,
+      "simulation_mean_us": 2476.483333333333,
+      "simulation_p95_us": 8160,
+      "color_mean_us": 101.06111111111112,
+      "color_p95_us": 155,
+      "travel_mean_us": 1998.5555555555557
+    }
+  ],
+  "particles_equal": true
+}
