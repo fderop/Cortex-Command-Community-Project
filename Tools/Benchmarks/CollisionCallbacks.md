@@ -66,23 +66,27 @@ Local macOS dependency and runtime support changes remain outside this commit.
 
 The recorded results appear in `CollisionCallbacks-results.json`.
 
+These CPU measurements replace the invalid results from the original fixture.
+The original debris fixture added a field beyond the fixed allocation size inherited from `MOSRotating`.
+The corrected fixture stores reset positions outside the entity and requires equal fixture and base sizes at compilation.
+The other heap fixtures add no fields.
+The full-game and Lua captures use actual engine entities and remain valid.
+
 Times are medians across 21 samples. Allocation counts cover one separate pass of 4096 calls and match across all three runs.
 
 | Fixture | Baseline ms | Changed ms | Time reduction | Baseline allocations | Changed allocations |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Dense, one body | 449.362 | 392.405 | 12.68% | 3,190,671 | 309,291 |
-| Dense, eight bodies | 570.135 | 517.821 | 9.18% | 3,765,537 | 971,963 |
-| Dense, 32 bodies | 839.132 | 783.234 | 6.66% | 4,719,757 | 2,028,381 |
-| Terrain | 135.726 | 92.532 | 31.82% | 2,406,712 | 0 |
-| Empty space | 58.809 | 59.868 | -1.80% | 0 | 0 |
-| Push, terrain | 31.162 | 32.629 | -4.71% | 36,864 | 36,864 |
-| Push, empty space | 18.051 | 18.951 | -4.99% | 0 | 0 |
+| Dense, one body | 437.390 | 375.184 | 14.22% | 3,190,671 | 309,291 |
+| Dense, eight bodies | 554.914 | 507.584 | 8.53% | 3,765,537 | 971,963 |
+| Dense, 32 bodies | 820.828 | 763.786 | 6.95% | 4,719,757 | 2,028,381 |
+| Terrain | 132.818 | 90.344 | 31.98% | 2,406,712 | 0 |
+| Empty space | 58.162 | 57.899 | 0.45% | 0 | 0 |
+| Push, terrain | 30.946 | 30.777 | 0.55% | 36,864 | 36,864 |
+| Push, empty space | 17.858 | 17.874 | -0.09% | 0 | 0 |
 
 Every paired process produces identical physics hashes and collision response counts.
 The dense time reductions persist across all three pairs.
-The empty-space and push fixtures take 1.8–5.0% more time with the changed executable.
-Their allocation counts remain identical.
-The changed executable also changes code layout, but these measurements do not isolate the cause of those timing increases.
+The control medians differ by less than 0.6%, and their allocation counts remain identical.
 
 These fixtures measure the real physics routines with synthetic geometry.
 They do not measure a full game frame or prove a frame-rate increase.
