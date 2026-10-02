@@ -12,7 +12,7 @@ Four changes reduce repeated work without changing the tested physics or sprite 
 The integration branch combines these changes from baseline `41e6b7010817936e09d2929330b7519852a1fcca`.
 The runner freshly compiles the six affected source files for both versions.
 It also builds identical temporary timing instrumentation for both versions.
-All other engine objects and build flags are shared.
+Both versions share all other engine objects and build flags.
 The added `ContentFile` members are static, so instance layouts remain unchanged.
 
 ## Gameplay measurements
@@ -25,7 +25,8 @@ Both scenarios use Grasslands and a fixed random seed for each simulation tick.
 
 Three process pairs alternate baseline and changed execution order.
 No other benchmark or compilation runs during these captures.
-Each process captures 240 ticks; the timing analysis excludes ticks 0–59.
+Each process captures 240 ticks.
+The timing analysis excludes ticks 0–59.
 The table combines 540 measured ticks per version and scenario.
 Percentiles use the nearest-rank method.
 
@@ -43,7 +44,8 @@ Percentiles use the nearest-rank method.
 | Collidable color drawing mean | 0.151 | 0.123 | 18.95% |
 
 Every process pair improves mean simulation time.
-Stock improvements range from 5.82% to 8.39%; collidable improvements range from 5.66% to 6.59%.
+Stock improvements range from 5.82% to 8.39%.
+Collidable improvements range from 5.66% to 6.59%.
 The mean particle counts are 4,349 for stock debris and 631 for collidable debris.
 Collidable debris quickly destroys other debris, so these scenarios have different workloads.
 
